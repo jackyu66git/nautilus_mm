@@ -9,6 +9,7 @@ logs/event_state/**/*.json
 logs/event_state/**/*.jsonl
 logs/event_state/**/*.txt
 data/chan_2buy_of/
+data/chan_s3_hist/
 logs/chan_2buy_of/
 logs/chan_lifecycle_entry/
 logs/chan_htf_forming_pen/

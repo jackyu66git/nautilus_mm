@@ -1,0 +1,13 @@
+CHAN_S3_HIST_001  decision=INCONCLUSIVE  kind=THIN  not_oos=True
+事件窗 2025-05-21T10:39:00+00:00 ≤ T_3 < 2026-05-21T10:39:00+00:00。G0 8→16 不动。
+
+  n_15m=43627 days=365.0 n_b3=24 n_s3=27 s3_per_90d=6.6575
+  S3 traded=27 WIN=10 LOSS=5 TIME=12 hit24=0.37037 avgR=-0.138745 seR=0.116234 perm_p=0.879412
+  B3 traded=24 WIN=11 LOSS=4 TIME=9 hit24=0.458333 avgR=0.024149
+  S3 gap_h p50=266.0 max=907.25
+
+  S3 by year:
+    2025 n=15 hit24=0.266667 avgR=-0.108608 WIN/LOSS/TIME=4/1/10
+    2026 n=12 hit24=0.5 avgR=-0.176415 WIN/LOSS/TIME=6/4/2
+
+不是 OOS。不改 S3 定义。不取消 G0。不准偷看 9…15。0.5R 选在 90 天窗，本枪只诊断更早历史。WORTH_WAIT / NOT_WORTH_WAIT 都不替代 Recheck。

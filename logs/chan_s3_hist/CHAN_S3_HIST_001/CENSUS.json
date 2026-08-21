@@ -1,0 +1,155 @@
+{
+  "decision": "INCONCLUSIVE",
+  "kind": "THIN",
+  "not_oos": true,
+  "g0_unchanged": true,
+  "n_15m": 43627,
+  "n_event": 51,
+  "n_b3": 24,
+  "n_s3": 27,
+  "days": 365.0,
+  "s3_per_90d": 6.6575,
+  "tp_mult": 0.5,
+  "census_start": "2025-05-21T10:39:00+00:00",
+  "census_end": "2026-05-21T10:39:00+00:00",
+  "all": {
+    "n": 51,
+    "traded": 51,
+    "outcome": {
+      "WIN": 21,
+      "TIME_EXIT": 21,
+      "LOSS": 9
+    },
+    "win": 21,
+    "loss": 9,
+    "time_exit": 21,
+    "time_share": 0.411765,
+    "hit24": 0.411765,
+    "avg_r": -0.062089,
+    "median_r": 0.094531,
+    "total_r": -3.166529,
+    "se_r": 0.082162
+  },
+  "B3": {
+    "n": 24,
+    "traded": 24,
+    "outcome": {
+      "WIN": 11,
+      "TIME_EXIT": 9,
+      "LOSS": 4
+    },
+    "win": 11,
+    "loss": 4,
+    "time_exit": 9,
+    "time_share": 0.375,
+    "hit24": 0.458333,
+    "avg_r": 0.024149,
+    "median_r": 0.174932,
+    "total_r": 0.579579,
+    "se_r": 0.115726
+  },
+  "S3": {
+    "n": 27,
+    "traded": 27,
+    "outcome": {
+      "TIME_EXIT": 12,
+      "WIN": 10,
+      "LOSS": 5
+    },
+    "win": 10,
+    "loss": 5,
+    "time_exit": 12,
+    "time_share": 0.444444,
+    "hit24": 0.37037,
+    "avg_r": -0.138745,
+    "median_r": -0.038085,
+    "total_r": -3.746108,
+    "se_r": 0.116234
+  },
+  "S3_perm_p_mean_gt_0": 0.879412,
+  "S3_by_year": {
+    "2025": {
+      "n": 15,
+      "traded": 15,
+      "outcome": {
+        "TIME_EXIT": 10,
+        "WIN": 4,
+        "LOSS": 1
+      },
+      "win": 4,
+      "loss": 1,
+      "time_exit": 10,
+      "time_share": 0.666667,
+      "hit24": 0.266667,
+      "avg_r": -0.108608,
+      "median_r": -0.038085,
+      "total_r": -1.629123,
+      "se_r": 0.130542
+    },
+    "2026": {
+      "n": 12,
+      "traded": 12,
+      "outcome": {
+        "LOSS": 4,
+        "WIN": 6,
+        "TIME_EXIT": 2
+      },
+      "win": 6,
+      "loss": 4,
+      "time_exit": 2,
+      "time_share": 0.166667,
+      "hit24": 0.5,
+      "avg_r": -0.176415,
+      "median_r": 0.5,
+      "total_r": -2.116985,
+      "se_r": 0.210967
+    }
+  },
+  "B3_by_year": {
+    "2025": {
+      "n": 14,
+      "traded": 14,
+      "outcome": {
+        "WIN": 7,
+        "TIME_EXIT": 5,
+        "LOSS": 2
+      },
+      "win": 7,
+      "loss": 2,
+      "time_exit": 5,
+      "time_share": 0.357143,
+      "hit24": 0.5,
+      "avg_r": 0.082943,
+      "median_r": 0.5,
+      "total_r": 1.161204,
+      "se_r": 0.150929
+    },
+    "2026": {
+      "n": 10,
+      "traded": 10,
+      "outcome": {
+        "WIN": 4,
+        "TIME_EXIT": 4,
+        "LOSS": 2
+      },
+      "win": 4,
+      "loss": 2,
+      "time_exit": 4,
+      "time_share": 0.4,
+      "hit24": 0.4,
+      "avg_r": -0.058163,
+      "median_r": 0.094531,
+      "total_r": -0.581625,
+      "se_r": 0.186506
+    }
+  },
+  "S3_gap_hours": {
+    "n": 26,
+    "min": 16.25,
+    "p25": 76.25,
+    "p50": 266.0,
+    "p75": 454.0,
+    "max": 907.25
+  },
+  "blocked": "\u4e0d\u662f OOS\u3002\u4e0d\u6539 S3 \u5b9a\u4e49\u3002\u4e0d\u53d6\u6d88 G0\u3002\u4e0d\u51c6\u5077\u770b 9\u202615\u30020.5R \u9009\u5728 90 \u5929\u7a97\uff0c\u672c\u67aa\u53ea\u8bca\u65ad\u66f4\u65e9\u5386\u53f2\u3002WORTH_WAIT / NOT_WORTH_WAIT \u90fd\u4e0d\u66ff\u4ee3 Recheck\u3002"
+}

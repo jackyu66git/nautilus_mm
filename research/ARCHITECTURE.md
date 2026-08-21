@@ -6,6 +6,7 @@ Fact Layer: FROZEN FACT BASELINE
             CHAN_DESK_REPLAY_001 = PASS / STATE_TAPE_OK
             基准事实层，不是实验结果。Tape / 钟 / 窗口 不准再改
 Active:     G0 WAIT。CHAN_TO_LIVE.md
+            CHAN_S3_HIST_001 = INCONCLUSIVE / THIN（不是 OOS）
             CHAN_B3_R_CENSUS_001 = NO_TAIL / SHAPE_OK
             CHAN_B3_V2 = HOLD / FAMILY_SPLIT。0.5R = Candidate
             n_S3≥16 才复检。不准新开结构研究
@@ -225,6 +226,7 @@ Trading Layer:         CHAN_B3_BASELINE_V1 已跑。BASELINE_OK ≠ Edge
 | CHAN_B3_EXIT_CENSUS_001 | Exit 几何：R 网格 × 24/48/72h / 至 Stop | PASS / A_SMALLER_TARGET。0.5R@24=11/20，1R@24=4/20。1R any=10/20 p50=24.5h。V2 另授权。−0.58R ≠ Economic FAIL |
 | CHAN_B3_V2 | 唯一变量 TP：0.5 / 0.75 / 1.0R | HOLD / FAMILY_SPLIT。0.5R=Candidate 未冻结。B3 支持 S3 不支持。下一格见 CHAN_TO_LIVE G1。不准只做 B3 |
 | CHAN_B3_R_CENSUS_001 | Raw R 分布。R_pct=|Entry−Stop|/Entry。不改 Stop | DONE / NO_TAIL。p50=2.12% p90=4.04% max=6.19%。p90/p50=1.91。G0b=N/A。不定 5/10/15% |
+| CHAN_S3_HIST_001 | Tape 前 1 年冻结 S3 的 0.5R/24h 诊断。不是 OOS | DONE / INCONCLUSIVE / THIN。n_S3=27<30。avg R=−0.14。不取消 G0 |
 | CHAN_3RD_POINT_END_001 | 2 个 REENTRY 在 T_3 前是否已处于不同大级别趋势状态 | PASS / ATTRIBUTION_OK。SHIFT 7/7 RESUME。LATE 3 里 2 REENTRY。两种 LATE 不同。not_proof。不准改三买 |
 | CHAN_2ND_POINT_FATE_001 | 15m 二买/二卖确认后的结构 Fate | PASS / FATE_CENSUS_OK。n_2=9（B2=4,S2=5）。9/9 RESUME。5/9 下一根即 Fate。p50=0.25h=判定延迟，≠比三买快一倍。漏斗 57→34→14→9。BROKE_FIRST≠失败。n=9 不准开生命周期 |
 | CHAN_EMA52_WHERE_001 | 无状态的「回撤到 EMA52 附近 vs 仍远离」是否改变后续结构命运 | FAIL / NO_STATE_CONTRAST。≠ EMA52 没用。排除普适支撑/压力。震荡穿越不是失败样本。不准改本 ID 翻盘。数字不可变 |

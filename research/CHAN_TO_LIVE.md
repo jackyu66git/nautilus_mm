@@ -5,6 +5,7 @@ Repo:      https://github.com/jackyu66git/nautilus_mm
 Not:       nautechsystems/nautilus_trader
            freqtrade/freqtrade
 Active:    G0 WAIT n_S3>=16
+Side:      CHAN_S3_HIST_001（诊断，不是 OOS）
 Done:      G-R  CHAN_B3_R_CENSUS_001 = NO_TAIL / SHAPE_OK
 Locked:    G0b = N/A · G1–G9
 ```
@@ -14,13 +15,17 @@ Locked:    G0b = N/A · G1–G9
 官方 NautilusTrader 只在 G6 Paper 以后作为执行引擎。本仓库是研究合同与离线枪。
 
 ```
-G-R  R Distribution Census
+G-R  R Distribution Census = NO_TAIL
         │
-        ├── NO_TAIL  → G0 WAIT n_S3>=16 → G1 Recheck 0.5R
-        └── LONG_TAIL → G0b Risk Distance Gate（NO TRADE，不 Cap Stop）
-                         → G0 WAIT → G1
-G1 PASS → G2 OOS → G3 Economic → G4 Robustness → G5 Strategy Freeze
-      → G6 Paper → G7 Shadow → G8 Small Live → G9 Scale
+        ▼
+G0 WAIT n_S3>=16  ──────── 不动
+        │
+        │   旁路（不能替代 Recheck）
+        │   CHAN_S3_HIST_001
+        │   向后大样本 · 不改定义
+        │
+        ▼
+G1 Recheck 0.5R
 ```
 
 ---
@@ -31,6 +36,7 @@ G1 PASS → G2 OOS → G3 Economic → G4 Robustness → G5 Strategy Freeze
 |------|------|----------|
 | G-R R Census | **DONE** `NO_TAIL` | 无资格开 G0b |
 | G0 自然样本 | **ACTIVE WAIT** | S3 ≥ 16 才 `CHAN_B3_V2_RECHECK` |
+| HIST 诊断 | **DONE** `INCONCLUSIVE / THIN` | n_S3=27 < 30。不取消 G0。不是 OOS |
 | G0b Risk Distance | N/A | 形状闸未触发。不准另定 5/10/15% |
 | G1 Recheck | LOCKED | n_S3≥16 |
 | G2–G9 | LOCKED | 仅当前一格 PASS（或 G1 的 SPLIT 旁路） |
@@ -99,7 +105,10 @@ NO_TAIL    否则
 
 ## G0 WAIT
 
-n_S3 < 16 → NOTHING。n_S3 ≥ 16 → 自动一次 `CHAN_B3_V2_RECHECK`，不再开会。
+n_S3 < 16 → NOTHING（对 Recheck 而言）。n_S3 ≥ 16 → 自动一次 `CHAN_B3_V2_RECHECK`，不再开会。
+**16 仍是 OOS 闸，不是统计最优门槛。** 不准用 HIST 改掉 16，也不准用 HIST 提前跑 Recheck。
+
+旁路 `CHAN_S3_HIST_001`：不改定义、不用 90 天窗、不向前偷看。只回答这个稀疏事件在更早历史上有没有值得继续等的信号。WORTH_WAIT / NOT_WORTH_WAIT / INCONCLUSIVE 都不替代 G1。
 
 ## G1 Recheck
 
