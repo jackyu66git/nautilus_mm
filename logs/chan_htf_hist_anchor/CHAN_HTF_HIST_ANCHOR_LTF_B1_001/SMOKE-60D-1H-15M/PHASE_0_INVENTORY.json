@@ -1,0 +1,59 @@
+{
+  "experiment": "CHAN_HTF_HIST_ANCHOR_LTF_B1_001",
+  "phase": "0",
+  "decision": "PASS",
+  "kind": "HIST_ANCHOR_EXISTS",
+  "n_events": 23,
+  "gates": [
+    {
+      "name": "C0",
+      "verdict": "PASS",
+      "detail": "n_LTF_B1=5 n_rows=23"
+    },
+    {
+      "name": "C1",
+      "verdict": "PASS",
+      "detail": "strict leftover complete < T_LTF_B1; HTF BSP absent"
+    },
+    {
+      "name": "C2",
+      "verdict": "PASS",
+      "detail": "B1 with hist zs=5/5  NO_HIST_ANCHOR=0"
+    },
+    {
+      "name": "C3",
+      "verdict": "PASS",
+      "detail": "rails=92 ABOVE=46 CONTACT=5 BELOW=41 zg_rewrite=0 zd_rewrite=0 gg_rewrite=0 dd_rewrite=0"
+    }
+  ],
+  "summary": {
+    "n_ltf_b1": 5,
+    "n_b1_with_hist": 5,
+    "n_no_hist_anchor": 0,
+    "n_hist_zs_rows": 23,
+    "hist_zs_per_b1": {
+      "2026-06-25 07:30:00": 1,
+      "2026-07-13 15:15:00": 3,
+      "2026-07-23 10:30:00": 4,
+      "2026-08-11 12:00:00": 7,
+      "2026-08-13 22:15:00": 8
+    },
+    "rails": {
+      "zg_ABOVE": 10,
+      "zg_CONTACT": 1,
+      "zg_BELOW": 12,
+      "zd_ABOVE": 13,
+      "zd_CONTACT": 2,
+      "zd_BELOW": 8,
+      "gg_ABOVE": 3,
+      "gg_CONTACT": 1,
+      "gg_BELOW": 19,
+      "dd_ABOVE": 20,
+      "dd_CONTACT": 1,
+      "dd_BELOW": 2
+    },
+    "n_zg_rewrite": 0,
+    "n_gg_rewrite": 0
+  },
+  "blocked": "Q4 B1\u2192B2=BLOCKED OF=BLOCKED SMC=BLOCKED MACD=BLOCKED HTF_BSP=FORBIDDEN living\u76d2=NOT_OBJECT Entry=FORBIDDEN"
+}

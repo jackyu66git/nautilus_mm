@@ -1,0 +1,21 @@
+{
+  "decision": "PASS",
+  "kind": "SAMPLE_INSUFFICIENT",
+  "clock_ok": true,
+  "n_mother": 20,
+  "n_b3": 12,
+  "n_s3": 8,
+  "n_no_pb": 0,
+  "n_usable": 20,
+  "n_entered": 9,
+  "n_not_entered": 11,
+  "entered_resume": 0.777778,
+  "missed_resume": 1.0,
+  "entered_reentry": 0.222222,
+  "missed_reentry": 0.0,
+  "fate_all": {
+    "RESUME": 18,
+    "REENTRY": 2
+  },
+  "blocked": "\u65e0 OF/MACD/EMA \u641c\u7d22/30m/1H \u7b49\u6548\u5c3a\u5ea6\u3002\u4e0d\u51c6\u6539\u4e09\u4e70\u5b9a\u4e49\u3002"
+}

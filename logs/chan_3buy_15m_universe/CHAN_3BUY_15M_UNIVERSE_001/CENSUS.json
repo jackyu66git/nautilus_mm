@@ -1,0 +1,22 @@
+{
+  "decision": "PASS",
+  "kind": "UNIVERSE_OK",
+  "clock_ok": true,
+  "n_1h_bars": 2161,
+  "n_1h_zs": 11,
+  "n_1h_leave": 11,
+  "n_1h_b3": 0,
+  "n_1h_s3": 1,
+  "n_1h_3": 1,
+  "n_15m_bars": 8641,
+  "n_15m_zs": 57,
+  "n_15m_leave": 57,
+  "n_15m_b3": 12,
+  "n_15m_s3": 8,
+  "n_15m_3": 20,
+  "frozen_n_3": 20,
+  "regen_15m_equals_frozen": true,
+  "n_only_regen": 0,
+  "n_only_frozen": 0,
+  "blocked": "\u65e0 EMA/OF\u3002\u4e0d\u51c6\u6539\u4e09\u4e70\u5b9a\u4e49\u3002\u4e0d\u51c6\u6539 CHAN_3BUY_EMA52_001 \u7684 9 vs 11\u3002"
+}

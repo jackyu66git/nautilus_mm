@@ -1,0 +1,22 @@
+CHAN_CONT_NULL_001  decision=PASS  kind=STRUCTURE_INCREMENT
+弱 RESUME 谓词 vs 普通 15m K。B1/B2/B3 只读。
+
+  n_event=47 buy=24 sell=23  by={'S1': 10, 'B1': 8, 'B2': 4, 'S2': 5, 'B3': 12, 'S3': 8}
+  event next-bar extend=27/47 = 0.574468
+  event next-bar fate (冻结口径，含REVERSE/REENTRY赛跑)=29/47
+  null n=8600 p_up=0.453953 p_down=0.47314
+  mix_null=0.463342  delta=0.111126  threshold=0.05
+  extend_by_kind={'S1': 7, 'B1': 5, 'B2': 2, 'S2': 3, 'B3': 6, 'S3': 4}
+
+分线（下一根扩展率 vs 方向对照）：
+  B1/S1  12/18=0.667   对照混合≈0.46
+  B2/S2   5/9=0.556    对照混合≈0.46
+  B3/S3  10/20=0.500   对照 p_up/p_down≈0.45/0.47  ≈基线
+
+合样本 PASS 是 11pp，主要由一类拉动。三买单独没有增量。
+27/47 是后续比较的纯 continuation predicate。29/47 Fate 不再用来对照。
+本枪 = Null Baseline 锚点。11pp ≠ Alpha。不准三类合桶。
+第一复检（样本够）：B1/B2/B3 各自 vs Null 是否稳定。不是 EMA52。
+
+对照=非确认K的普通15m。不是局部突破/分型/笔。
+B1/B2/B3 HOLD。无 EMA/OF/Trend Age。不准把局部突破当对照。

@@ -1,0 +1,21 @@
+CHAN_BI_OF_STRATA_005M_001  decision=FAIL  kind=MFE_ONLY
+scale=5m bi-endpoint + 1m OF  n_bars=17281 n_ep=834
+15m predecessor=CHAN_BI_OF_STRATA_001 FAIL/NO_GRADIENT (immutable)
+
+S0   PASS             leak=0 T_BI_SURE>T_FX_VISIBLE unmatched_fx=0 truncated=1 n=834
+S1   PASS             n_bottom_ep=417 per_q=[84, 83, 83, 83, 84]
+S2   FAIL             MFE_ONLY MFE/hold gradient without MAE improvement rho[mae_16=0.300 mfe_16=0.400 ret_4=-0.100 ret_8=-0.100 ret_16=1.000 ret_4_net=-0.100 ret_8_net=-0.100 ret_16_net=1.000] mae_steps=2/4
+S3   NOT_RUN          S2 FAIL
+
+medians Q1→Q5
+  mae_16 0.0026938 0.0016877 0.0020884 0.0019717 0.0029673
+  mfe_16 0.0014737 0.00070439 0.0011781 0.0013245 0.0022273
+  ret_4 -0.00031443 -0.00036302 -0.00026026 -0.00017145 -0.0006401
+  ret_8 -0.00039344 -0.00043303 -0.0003761 -0.0001026 -0.00061162
+  ret_16 -0.00059502 -0.00055122 -0.00025246 -0.00017878 1.6087e-06
+  ret_4_net -0.0011144 -0.001163 -0.0010603 -0.00097145 -0.0014401
+  ret_8_net -0.0011934 -0.001233 -0.0011761 -0.0009026 -0.0014116
+  ret_16_net -0.001395 -0.0013512 -0.0010525 -0.00097878 -0.00079839
+rho_median mae_16=0.300 mfe_16=0.400 ret_4=-0.100 ret_8=-0.100 ret_16=1.000 ret_4_net=-0.100 ret_8_net=-0.100 ret_16_net=1.000
+
+B1/B2=FORBIDDEN HTF=BLOCKED SMC=BLOCKED TF=BLOCKED classifier=FORBIDDEN not_edge

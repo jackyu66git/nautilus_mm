@@ -1,0 +1,126 @@
+{
+  "decision": "PASS",
+  "kind": "HOLD_NO_SPLIT",
+  "n_event": 47,
+  "n_t1": 27,
+  "n_in": 1,
+  "cell_min": 5,
+  "in_out_split_ok": false,
+  "by_region": {
+    "IN": {
+      "n": 1,
+      "t1": 0,
+      "rate": 0.0
+    },
+    "OUT_HIGH": {
+      "n": 28,
+      "t1": 17,
+      "rate": 0.607143
+    },
+    "OUT_LOW": {
+      "n": 18,
+      "t1": 10,
+      "rate": 0.555556
+    }
+  },
+  "by_family": {
+    "B1": {
+      "n": 18,
+      "region": {
+        "OUT_HIGH": 10,
+        "OUT_LOW": 8
+      },
+      "pos": {
+        "n": 18,
+        "min": -3.1532,
+        "p25": -1.6075,
+        "p50": 1.1516,
+        "p75": 2.0748,
+        "max": 6.1622
+      },
+      "t1_in": {
+        "n": 0,
+        "t1": 0,
+        "rate": null
+      },
+      "t1_out": {
+        "n": 18,
+        "t1": 12,
+        "rate": 0.666667
+      },
+      "split_ok": false
+    },
+    "B2": {
+      "n": 9,
+      "region": {
+        "OUT_HIGH": 6,
+        "OUT_LOW": 2,
+        "IN": 1
+      },
+      "pos": {
+        "n": 9,
+        "min": -1.5255,
+        "p25": 0.1619,
+        "p50": 1.5741,
+        "p75": 1.9595,
+        "max": 2.3266
+      },
+      "t1_in": {
+        "n": 1,
+        "t1": 0,
+        "rate": 0.0
+      },
+      "t1_out": {
+        "n": 8,
+        "t1": 5,
+        "rate": 0.625
+      },
+      "split_ok": false
+    },
+    "B3": {
+      "n": 20,
+      "region": {
+        "OUT_HIGH": 12,
+        "OUT_LOW": 8
+      },
+      "pos": {
+        "n": 20,
+        "min": -6.1653,
+        "p25": -1.3745,
+        "p50": 1.3635,
+        "p75": 2.1441,
+        "max": 6.1622
+      },
+      "t1_in": {
+        "n": 0,
+        "t1": 0,
+        "rate": null
+      },
+      "t1_out": {
+        "n": 20,
+        "t1": 10,
+        "rate": 0.5
+      },
+      "split_ok": false
+    }
+  },
+  "pos_all": {
+    "n": 47,
+    "min": -6.1653,
+    "p25": -1.3294,
+    "p50": 1.3635,
+    "p75": 2.1222,
+    "max": 6.1622
+  },
+  "t1_in": {
+    "n": 1,
+    "t1": 0,
+    "rate": 0.0
+  },
+  "t1_out": {
+    "n": 46,
+    "t1": 27,
+    "rate": 0.586957
+  },
+  "blocked": "\u65e0 ATR \u5206\u6876\u3002\u65e0 EMA/OF\u3002Continuation CLOSED\u3002n<5 \u4e0d\u5f00 Location Modifier\u3002"
+}

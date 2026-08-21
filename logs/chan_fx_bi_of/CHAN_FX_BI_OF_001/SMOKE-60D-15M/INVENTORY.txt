@@ -1,0 +1,24 @@
+CHAN_FX_BI_OF_001  decision=PASS
+scale=15m Fractal + 1m OF  n_15m=5761 n_klc=4154 n_fx=1957
+sure_bi=271 unsure_bi=1 endpoints=272
+
+C0   PASS             bottom=978 ordinary=842 bi_endpoint=136 sure_bi=271 unmatched_ep=0
+C1   PASS             leak=0 retracted=0 forming_empty=0/1957 unsure_bi=1 label=sure-bi-only B1/B2=absent
+C2   PASS             cliff_delta=-0.316 cliff_imb=-0.208 bi_delta_p50=-256.2 ord_delta_p50=-72.03
+C3   PASS             within-bin OF remains outside amplitude pile-up cliff_mid_range=0.268 bins=bin0:n_bi=29 cliff_delta=-0.113 cliff_imb=-0.130 | bin1:n_bi=39 cliff_delta=-0.330 cliff_imb=-0.220 | bin2:n_bi=68 cliff_delta=-0.337 cliff_imb=-0.274
+
+  n_bottom=978
+  n_bi=136
+  n_ordinary=842
+  bi_delta={'n': 136, 'p10': -1413.3535, 'p50': -256.21999999999997, 'p90': 116.24149999999995}
+  ord_delta={'n': 842, 'p10': -645.1318999999999, 'p50': -72.02699999999999, 'p90': 306.8193999999998}
+  bi_imb={'n': 136, 'p10': -0.20674461286164164, 'p50': -0.08605860188498143, 'p90': 0.04214246401838094}
+  ord_imb={'n': 842, 'p10': -0.19705774407908422, 'p50': -0.039765882112764786, 'p90': 0.11366255716456067}
+  bi_range={'n': 136, 'p10': 72.65000000000146, 'p50': 151.09999999999854, 'p90': 328.84999999999854}
+  ord_range={'n': 842, 'p10': 43.90999999999476, 'p50': 113.30000000000291, 'p90': 235.95000000000135}
+  cliff_delta=-0.3161764705882353
+  cliff_imb=-0.20766382562526198
+  cliff_mid_range=0.26750908201760515
+  amp_cliff=0.26750908201760515
+
+B1/B2=FORBIDDEN HTF=BLOCKED SMC=BLOCKED TF_compare=FORBIDDEN

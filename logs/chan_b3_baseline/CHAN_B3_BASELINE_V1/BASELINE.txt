@@ -1,0 +1,11 @@
+CHAN_B3_BASELINE_V1  decision=PASS  kind=BASELINE_OK  hint=TIME_DOMINATED
+15m B3/S3 · T1 open · Stop=盒沿 · TP=1R · 24h TIME_EXIT · risk=0.5% · 无费
+
+  ALL n=20 WIN=4 LOSS=4 TIME=12 wr=0.5 avgR=-0.029004 medR=0.123652 sumR=-0.580074 PF=1.0 mfe_p50=0.5165 mae_p50=0.4625 mfe24_p50=0.5442
+  B3  n=12 WIN=2 LOSS=2 TIME=8 wr=0.5 avgR=-0.025504 medR=0.125387 sumR=-0.306042 PF=1.0 mfe_p50=0.5442 mae_p50=0.4885 mfe24_p50=0.5442
+  S3  n=8 WIN=2 LOSS=2 TIME=4 wr=0.5 avgR=-0.034254 medR=0.123652 sumR=-0.274032 PF=1.0 mfe_p50=0.3646 mae_p50=0.4189 mfe24_p50=0.3997
+
+  hours_to_tp={'n': 4, 'min': 0.25, 'p25': 0.25, 'p50': 1.25, 'p75': 5.0, 'max': 11.5}  hours_to_stop={'n': 4, 'min': 1.0, 'p25': 1.0, 'p50': 4.25, 'p75': 4.25, 'max': 14.0}
+  same_bar_both=0  r_px={'n': 20, 'min': 228.1, 'p25': 869.7, 'p50': 1325.5, 'p75': 1703.1, 'max': 3932.0}
+
+无 EMA/OF/Trend Age/ATR。无手续费。非组合。BASELINE_OK ≠ Edge ≠ 实盘。不准本枪优化 TP/Stop。hint=TIME_DOMINATED 只是观察标签，不是下一枪授权。

@@ -1,0 +1,15 @@
+CHAN_CONT_PERSIST_001  decision=PASS  kind=ONE_BAR_ARTIFACT
+链 continuation vs Null。H=1,2,3,4 预注册。B1/B2/B3 只读。
+
+  H1  event=27/47=0.574468  mix_null=0.463342  delta=0.111126 (11.1pp)
+      B1=12/18=0.666667  B2=5/9=0.555556  B3=10/20=0.5
+  H2  event=8/47=0.170213  mix_null=0.232118  delta=-0.061905 (-6.2pp)
+      B1=4/18=0.222222  B2=2/9=0.222222  B3=2/20=0.1
+  H3  event=3/47=0.06383  mix_null=0.112775  delta=-0.048945 (-4.9pp)
+      B1=2/18=0.111111  B2=1/9=0.111111  B3=0/20=0.0
+  H4  event=1/47=0.021277  mix_null=0.055527  delta=-0.03425 (-3.4pp)
+      B1=1/18=0.055556  B2=0/9=0.0  B3=0/20=0.0
+
+Y=连续原方向扩展链。H1 必须=27/47。比较不用 Fate。
++11.1pp 停在 H1。H2 起无正增量。CLOSED / ONE_BAR_ARTIFACT。
+线封存。负 delta 不准解释。不因本线开 Lifecycle / EMA52。

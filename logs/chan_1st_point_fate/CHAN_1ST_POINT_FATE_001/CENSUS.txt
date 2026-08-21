@@ -1,0 +1,16 @@
+CHAN_1ST_POINT_FATE_001  decision=PASS  kind=FATE_CENSUS_OK
+引擎 B1/S1 Fate。B2/B3 不动。无 EMA。
+
+  n_b1=8 n_s1=10 n_1=18 in_box_at_t1=0
+  fate RESUME=16 REENTRY=0 REVERSE=2 CENSOR=0
+  resume_rate=0.888889 hours_to_fate_p50=0.25
+  next_bar_fate=14/18  （判定延迟，≠持仓）
+  latency_hist: 0.25h×14, 0.5h×3, 3.75h×1
+
+hours_to_fate = confirmation → fate bar latency。1根15m=0.25h。
+分布：0.25h×14，0.5h×3，3.75h×1。14/18 下一根即 Fate。p50=0.25h。
+16/18 RESUME 不是成功率。2 REVERSE 是打穿离开笔。
+弱 RESUME 下与 B2/B3 同构 continuation，≠某一级独有 Alpha。
+n_b1=8 与冻结 B1_LOCK 一致。未用 find_first_bsp。
+
+B2/B3 HOLD。无 EMA/OF/Trend Age。不准改一类。不准用 find_first_bsp。

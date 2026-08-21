@@ -1,0 +1,85 @@
+{"kind": "B1_VISIBLE", "bar_idx": 542, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "leave_in_members": false}
+{"kind": "B1_LOCK", "bar_idx": 542, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "zs_start": "2026-06-24 17:45:00", "leave_start": "2026-06-25 07:30:00", "leave_sure_time": "2026-06-25 21:45:00"}
+{"kind": "BOUNCE_SURE_FIRST", "bar_idx": 542, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "dir": "UP"}
+{"kind": "TEST_FORMING_FIRST", "bar_idx": 542, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "dir": "DOWN"}
+{"kind": "COND4_FIRST", "bar_idx": 542, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "second_sure": false, "second_low": 58325.6}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 543, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "low": 58648.9, "prev": 58325.6}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 544, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "low": 58403.4, "prev": 58648.9}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 545, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "low": 58288.0, "prev": 58403.4}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 546, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "low": 58771.8, "prev": 58288.0}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 547, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "low": 58983.4, "prev": 58771.8}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 548, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "low": 59464.0, "prev": 58983.4}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 549, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "low": 59802.3, "prev": 59464.0}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 550, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "low": 59860.6, "prev": 59802.3}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 551, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "low": 59866.0, "prev": 59860.6}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 552, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "low": 59810.1, "prev": 59866.0}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 554, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "low": 59703.1, "prev": 59810.1}
+{"kind": "B2_TRUTH", "bar_idx": 555, "key": "2026-06-24 17:45:00|2026-06-25 07:30:00", "gap_15m": 13, "t_test_forming": 542, "t_cond4": 542}
+{"kind": "B1_VISIBLE", "bar_idx": 2253, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "leave_in_members": false}
+{"kind": "B1_LOCK", "bar_idx": 2253, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "zs_start": "2026-07-13 04:30:00", "leave_start": "2026-07-13 15:15:00", "leave_sure_time": "2026-07-13 20:00:00"}
+{"kind": "BOUNCE_SURE_FIRST", "bar_idx": 2253, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "dir": "UP"}
+{"kind": "TEST_FORMING_FIRST", "bar_idx": 2253, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "dir": "DOWN"}
+{"kind": "COND4_FIRST", "bar_idx": 2253, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "second_sure": false, "second_low": 62023.2}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 2254, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "low": 62100.1, "prev": 62023.2}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 2255, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "low": 61993.2, "prev": 62100.1}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 2256, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "low": 61883.1, "prev": 61993.2}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 2257, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "low": 61854.5, "prev": 61883.1}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 2258, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "low": 62021.7, "prev": 61854.5}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 2259, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "low": 62066.7, "prev": 62021.7}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 2260, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "low": 62072.8, "prev": 62066.7}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 2261, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "low": 62240.9, "prev": 62072.8}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 2262, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "low": 62282.0, "prev": 62240.9}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 2263, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "low": 62258.3, "prev": 62282.0}
+{"kind": "B2_TRUTH", "bar_idx": 2264, "key": "2026-07-13 04:30:00|2026-07-13 15:15:00", "gap_15m": 11, "t_test_forming": 2253, "t_cond4": 2253}
+{"kind": "B1_VISIBLE", "bar_idx": 3225, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "leave_in_members": false}
+{"kind": "B1_LOCK", "bar_idx": 3225, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "zs_start": "2026-07-22 07:30:00", "leave_start": "2026-07-23 10:30:00", "leave_sure_time": "2026-07-23 21:00:00"}
+{"kind": "BOUNCE_SURE_FIRST", "bar_idx": 3225, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "dir": "UP"}
+{"kind": "TEST_FORMING_FIRST", "bar_idx": 3225, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "dir": "DOWN"}
+{"kind": "COND4_FIRST", "bar_idx": 3225, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "second_sure": false, "second_low": 64912.4}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 3226, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "low": 64963.7, "prev": 64912.4}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 3227, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "low": 65000.0, "prev": 64963.7}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 3228, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "low": 65031.1, "prev": 65000.0}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 3229, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "low": 65035.2, "prev": 65031.1}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 3230, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "low": 65051.9, "prev": 65035.2}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 3231, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "low": 64890.5, "prev": 65051.9}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 3233, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "low": 65045.0, "prev": 64890.5}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 3234, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "low": 65272.3, "prev": 65045.0}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 3236, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "low": 65360.3, "prev": 65272.3}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 3238, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "low": 65300.6, "prev": 65360.3}
+{"kind": "B2_TRUTH", "bar_idx": 3239, "key": "2026-07-22 07:30:00|2026-07-23 10:30:00", "gap_15m": 14, "t_test_forming": 3225, "t_cond4": 3225}
+{"kind": "B1_VISIBLE", "bar_idx": 5044, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "leave_in_members": false}
+{"kind": "B1_LOCK", "bar_idx": 5044, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "zs_start": "2026-08-10 18:30:00", "leave_start": "2026-08-11 12:00:00", "leave_sure_time": "2026-08-11 21:15:00"}
+{"kind": "BOUNCE_SURE_FIRST", "bar_idx": 5044, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "dir": "UP"}
+{"kind": "TEST_FORMING_FIRST", "bar_idx": 5044, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "dir": "DOWN"}
+{"kind": "COND4_FIRST", "bar_idx": 5044, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "second_sure": false, "second_low": 63571.9}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5045, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "low": 63505.3, "prev": 63571.9}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5046, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "low": 63551.5, "prev": 63505.3}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5047, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "low": 63644.0, "prev": 63551.5}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5048, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "low": 63691.3, "prev": 63644.0}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5050, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "low": 63708.8, "prev": 63691.3}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5052, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "low": 63771.1, "prev": 63708.8}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5053, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "low": 63789.0, "prev": 63771.1}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5056, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "low": 63701.2, "prev": 63789.0}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5057, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "low": 63680.0, "prev": 63701.2}
+{"kind": "B2_TRUTH", "bar_idx": 5058, "key": "2026-08-10 18:30:00|2026-08-11 12:00:00", "gap_15m": 14, "t_test_forming": 5044, "t_cond4": 5044}
+{"kind": "B1_VISIBLE", "bar_idx": 5316, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "leave_in_members": false}
+{"kind": "B1_LOCK", "bar_idx": 5316, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "zs_start": "2026-08-11 19:00:00", "leave_start": "2026-08-13 22:15:00", "leave_sure_time": "2026-08-14 17:15:00"}
+{"kind": "BOUNCE_SURE_FIRST", "bar_idx": 5316, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "dir": "UP"}
+{"kind": "TEST_FORMING_FIRST", "bar_idx": 5316, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "dir": "DOWN"}
+{"kind": "COND4_FIRST", "bar_idx": 5316, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "second_sure": false, "second_low": 62911.7}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5317, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62933.2, "prev": 62911.7}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5318, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62904.6, "prev": 62933.2}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5319, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62880.9, "prev": 62904.6}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5320, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62864.6, "prev": 62880.9}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5321, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62868.2, "prev": 62864.6}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5322, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62854.8, "prev": 62868.2}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5323, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62846.7, "prev": 62854.8}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5324, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62850.0, "prev": 62846.7}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5326, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62770.9, "prev": 62850.0}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5327, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62794.1, "prev": 62770.9}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5328, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62840.1, "prev": 62794.1}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5329, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62855.3, "prev": 62840.1}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5331, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62876.2, "prev": 62855.3}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5332, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62977.0, "prev": 62876.2}
+{"kind": "REWRITE_TEST_LOW", "bar_idx": 5333, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "low": 62976.4, "prev": 62977.0}
+{"kind": "B2_TRUTH", "bar_idx": 5334, "key": "2026-08-11 19:00:00|2026-08-13 22:15:00", "gap_15m": 18, "t_test_forming": 5316, "t_cond4": 5316}

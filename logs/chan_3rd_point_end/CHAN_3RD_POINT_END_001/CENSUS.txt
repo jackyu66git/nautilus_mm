@@ -1,0 +1,14 @@
+CHAN_3RD_POINT_END_001  decision=PASS  kind=ATTRIBUTION_OK
+T_3 前 1H 结构。问 REENTRY 是否已在不同前置状态。不准改三买。
+
+  n_3=20 RESUME=18 REENTRY=2
+  REENTRY segment=['LATE', 'LATE'] state=['TREND_DOWN', 'TREND_UP']
+  REENTRY age_h=[290.0, 88.0] box_dist=[-31.5173, 3.2809]
+  REENTRY n_prior_3rd_same=[1, 9]
+  RESUME  segment={'NONE': 1, 'SHIFT': 7, 'MID': 6, 'LATE': 1, 'EARLY': 3} state={'NONE': 1, 'TRANSITION': 2, 'TREND_DOWN': 6, 'RANGE': 5, 'TREND_UP': 4}
+  age_h p50  RESUME=5.0 REENTRY=290.0
+  box p50    RESUME=0.201 REENTRY=3.2809
+  LATE|SHIFT RESUME=8/18 REENTRY=2/2
+  candidate_late_split=True  not_proof=True
+
+n_REENTRY=2。不准改三买定义。不准当 Fate Contrast。无 EMA/OF。

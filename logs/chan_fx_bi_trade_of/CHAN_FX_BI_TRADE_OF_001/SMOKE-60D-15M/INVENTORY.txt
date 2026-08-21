@@ -1,0 +1,19 @@
+CHAN_FX_BI_TRADE_OF_001  decision=FAIL  kind=NO_INCREMENT
+n_fx=1957 bottom=978 ordinary=842 bi=136
+15m same events. OF = forming aggTrades. ≠ B1/B2
+
+C0   PASS             join 1:1 n=1957 bottom=978 ordinary=842 bi_endpoint=136
+C1   PASS             leak=0 retracted=0 n=1957 label=sure-bi-only B1/B2=absent
+C2   FAIL             HHI and push no contrast cliff_delta=-0.316 cliff_hhi=-0.104 cliff_push=-0.125 bi_delta_p50=-256.2 ord_delta_p50=-72.03
+C3   NOT_RUN          C2 FAIL
+
+  base_rate=0.1391
+  topk_delta={'k': 136, 'hits': 38, 'rate': 0.27941176470588236}
+  topk_hhi={'k': 136, 'hits': 25, 'higher_first': False, 'rate': 0.18382352941176472}
+  topk_push={'k': 136, 'hits': 22, 'higher_first': False, 'rate': 0.16176470588235295}
+  cliff_delta=-0.3161764705882353
+  cliff_hhi=-0.10398910157887382
+  cliff_push=-0.12496506916305715
+  auc_delta_lower=0.6580882352941176
+
+≠NEW_EDGE 不准 B1/B2 HTF SMC 5m absorption classifier 交易层 Phase3-HHI

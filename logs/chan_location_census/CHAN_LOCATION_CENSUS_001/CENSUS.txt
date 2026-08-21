@@ -1,0 +1,13 @@
+CHAN_LOCATION_CENSUS_001  decision=PASS  kind=HOLD_NO_SPLIT
+T0 相对冻结中枢盒子。无 ATR。无 EMA。T+1=纯 continuation。
+
+  n=47 t1=27 IN=1 OUT=46  pos={'n': 47, 'min': -6.1653, 'p25': -1.3294, 'p50': 1.3635, 'p75': 2.1222, 'max': 6.1622}
+  region IN={'n': 1, 't1': 0, 'rate': 0.0} OUT_HIGH={'n': 28, 't1': 17, 'rate': 0.607143} OUT_LOW={'n': 18, 't1': 10, 'rate': 0.555556}
+  t1 IN={'n': 1, 't1': 0, 'rate': 0.0} OUT={'n': 46, 't1': 27, 'rate': 0.586957}
+
+  B1 n=18 region={'OUT_HIGH': 10, 'OUT_LOW': 8} pos_p50=1.1516 t1_in={'n': 0, 't1': 0, 'rate': None} t1_out={'n': 18, 't1': 12, 'rate': 0.666667} split_ok=False
+  B2 n=9 region={'OUT_HIGH': 6, 'OUT_LOW': 2, 'IN': 1} pos_p50=1.5741 t1_in={'n': 1, 't1': 0, 'rate': 0.0} t1_out={'n': 8, 't1': 5, 'rate': 0.625} split_ok=False
+  B3 n=20 region={'OUT_HIGH': 12, 'OUT_LOW': 8} pos_p50=1.3635 t1_in={'n': 0, 't1': 0, 'rate': None} t1_out={'n': 20, 't1': 10, 'rate': 0.5} split_ok=False
+
+不准 ATR/NEAR。n<5 则 Location HOLD。不因本枪开 EMA52。
+无 ATR 分桶。无 EMA/OF。Continuation CLOSED。n<5 不开 Location Modifier。

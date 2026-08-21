@@ -1,0 +1,28 @@
+[Unit]
+Description=Maker Edge Probe MM_EDGE_EXP_001 (Research Freeze / Data Collection)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=jack
+Group=jack
+WorkingDirectory=/www/Project/nautilus_mm
+Environment=PYTHONPATH=/www/Project/nautilus_mm/src
+EnvironmentFile=-/www/Project/nautilus_mm/.env
+# 服务器直连交易所
+Environment=HTTP_PROXY=
+Environment=HTTPS_PROXY=
+Environment=http_proxy=
+Environment=https_proxy=
+ExecStart=/www/Project/nautilus_mm/.venv/bin/python -m nautilus_mm.run_live
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=mm-edge-probe
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

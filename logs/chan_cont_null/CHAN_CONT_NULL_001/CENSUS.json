@@ -1,0 +1,36 @@
+{
+  "decision": "PASS",
+  "kind": "STRUCTURE_INCREMENT",
+  "n_15m": 8641,
+  "n_event": 47,
+  "n_buy": 24,
+  "n_sell": 23,
+  "n_missing_ts": 0,
+  "event_next_bar_extend": 27,
+  "event_next_bar_extend_rate": 0.574468,
+  "event_next_bar_fate": 29,
+  "null_n": 8600,
+  "null_p_up": 0.453953,
+  "null_p_down": 0.47314,
+  "mix_null_rate": 0.463342,
+  "delta": 0.111126,
+  "delta_threshold": 0.05,
+  "n_by_kind": {
+    "S1": 10,
+    "B1": 8,
+    "B2": 4,
+    "S2": 5,
+    "B3": 12,
+    "S3": 8
+  },
+  "extend_by_kind": {
+    "S1": 7,
+    "B1": 5,
+    "B2": 2,
+    "S2": 3,
+    "B3": 6,
+    "S3": 4
+  },
+  "control": "ordinary 15m bars. not breakout/fx/bi.",
+  "blocked": "B1/B2/B3 HOLD\u3002\u65e0 EMA/OF/Trend Age\u3002\u4e0d\u51c6\u628a\u5c40\u90e8\u7a81\u7834\u5f53\u5bf9\u7167\u3002"
+}

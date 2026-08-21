@@ -1,0 +1,57 @@
+{
+  "experiment": "CHAN_TRADE_OF_001",
+  "decision": "PASS",
+  "kind": "NEW_DIMENSION",
+  "n_15m": 5761,
+  "n_klc": 4154,
+  "n_events": 1957,
+  "gates": [
+    {
+      "name": "T0",
+      "verdict": "PASS",
+      "detail": "n_fx=1957 empty=0 leak=0 retracted=0"
+    },
+    {
+      "name": "F1",
+      "verdict": "PASS",
+      "detail": "spearman=1.0000 med_rel=2.73e-16"
+    },
+    {
+      "name": "F2",
+      "verdict": "PASS",
+      "detail": "new_dim=['hhi', 'push']  rho_max={hhi=0.689, speed=0.872, push=0.521} R2={hhi=0.121, speed=0.848, push=0.008} within_cv={hhi=1.915, speed=0.387, push=9.533} n_matched=871"
+    },
+    {
+      "name": "F3",
+      "verdict": "PASS",
+      "detail": "retracted=0 forming clipped at T_FX_VISIBLE"
+    }
+  ],
+  "summary": {
+    "kline_delta_p50": 9.421999999999992,
+    "kline_delta_p10": -503.9286,
+    "kline_delta_p90": 541.1240000000007,
+    "trade_delta_p50": 9.421999999999997,
+    "trade_delta_p10": -503.9285999999999,
+    "trade_delta_p90": 541.1240000000005,
+    "kline_volume_p50": 2473.6620000000007,
+    "kline_volume_p10": 930.1230000000002,
+    "kline_volume_p90": 8547.1628,
+    "trade_volume_p50": 2473.6620000000003,
+    "trade_volume_p10": 930.123,
+    "trade_volume_p90": 8547.1628,
+    "hhi_p50": 0.0046609240976373655,
+    "hhi_p10": 0.001804578974069712,
+    "hhi_p90": 0.014996907657554147,
+    "speed_p50": 8.445370657934431,
+    "speed_p10": 3.5647578172717753,
+    "speed_p90": 23.678151743881198,
+    "push_p50": 0.2915469324798885,
+    "push_p10": 0.0665936862222895,
+    "push_p90": 1.6151006377830224,
+    "mid_range_p50": 117.80000000000291,
+    "mid_range_p10": 48.26000000000059,
+    "mid_range_p90": 248.700000000003
+  },
+  "blocked": "5m=BLOCKED L2=BLOCKED absorption=NOT_A_DETECTOR B1/B2=FORBIDDEN HTF=BLOCKED SMC=BLOCKED"
+}

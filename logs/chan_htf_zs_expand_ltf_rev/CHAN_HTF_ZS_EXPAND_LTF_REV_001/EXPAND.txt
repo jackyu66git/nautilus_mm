@@ -1,0 +1,18 @@
+CHAN_HTF_ZS_EXPAND_LTF_REV_001  decision=FAIL  kind=NO_STATE_CONTRAST
+living 1H 中枢 n_bis 扩张 → 下一根 15m 笔方向反转。
+
+  n_bar=8640 n_rev=406 rev_share=0.046991
+  process_kind=NO_STATE_CONTRAST n_bis_kind=NO_STATE_CONTRAST
+
+  process
+    EXPAND n=17 n_rev=1 rev_share=0.058824 thin=True
+    STABLE n=8270 n_rev=391 rev_share=0.047279 thin=False
+    NEW_BOX n=11 n_rev=0 rev_share=0.0 thin=True
+    NONE n=342 n_rev=14 rev_share=0.040936 thin=False
+  n_bis
+    3 n=2568 n_rev=131 rev_share=0.051012 thin=False
+    5 n=3606 n_rev=172 rev_share=0.047698 thin=False
+    7 n=1488 n_rev=64 rev_share=0.043011 thin=False
+    9 n=636 n_rev=25 rev_share=0.039308 thin=False
+
+位置切面已关。本切面失败则关闭扩张假设。不准接 OF/SMC/交易。

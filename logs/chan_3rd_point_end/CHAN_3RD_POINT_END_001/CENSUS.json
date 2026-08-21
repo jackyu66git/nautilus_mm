@@ -1,0 +1,51 @@
+{
+  "decision": "PASS",
+  "kind": "ATTRIBUTION_OK",
+  "clock_ok": true,
+  "n_3": 20,
+  "n_resume": 18,
+  "n_reentry": 2,
+  "reentry_segments": [
+    "LATE",
+    "LATE"
+  ],
+  "reentry_states": [
+    "TREND_DOWN",
+    "TREND_UP"
+  ],
+  "reentry_age_h": [
+    290.0,
+    88.0
+  ],
+  "reentry_box_dist": [
+    -31.5173,
+    3.2809
+  ],
+  "reentry_prior_3rd": [
+    1,
+    9
+  ],
+  "resume_segment_n": {
+    "NONE": 1,
+    "SHIFT": 7,
+    "MID": 6,
+    "LATE": 1,
+    "EARLY": 3
+  },
+  "resume_state_n": {
+    "NONE": 1,
+    "TRANSITION": 2,
+    "TREND_DOWN": 6,
+    "RANGE": 5,
+    "TREND_UP": 4
+  },
+  "resume_age_h_p50": 5.0,
+  "reentry_age_h_p50": 290.0,
+  "resume_box_p50": 0.201,
+  "reentry_box_p50": 3.2809,
+  "n_resume_late_or_shift": 8,
+  "n_reentry_late_or_shift": 2,
+  "candidate_late_split": true,
+  "not_proof": true,
+  "blocked": "n_REENTRY=2\u3002\u4e0d\u51c6\u6539\u4e09\u4e70\u5b9a\u4e49\u3002\u4e0d\u51c6\u5f53 Fate Contrast\u3002\u65e0 EMA/OF\u3002"
+}

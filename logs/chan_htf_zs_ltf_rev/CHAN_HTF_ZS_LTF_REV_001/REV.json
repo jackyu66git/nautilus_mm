@@ -1,0 +1,41 @@
+{
+  "decision": "PASS",
+  "kind": "REV_TABLE_OK",
+  "n_tape": 8641,
+  "summary": {
+    "n_bar": 8640,
+    "n_rev": 406,
+    "rev_share": 0.046991,
+    "table": [
+      {
+        "state": "A_INSIDE",
+        "n": 1560,
+        "n_rev": 71,
+        "rev_share": 0.045513,
+        "label_b1": 0
+      },
+      {
+        "state": "B_BOUNDARY",
+        "n": 417,
+        "n_rev": 21,
+        "rev_share": 0.05036,
+        "label_b1": 0
+      },
+      {
+        "state": "C_AWAY",
+        "n": 6321,
+        "n_rev": 300,
+        "rev_share": 0.047461,
+        "label_b1": 8
+      },
+      {
+        "state": "NONE",
+        "n": 342,
+        "n_rev": 14,
+        "rev_share": 0.040936,
+        "label_b1": 0
+      }
+    ]
+  },
+  "blocked": "\u4e0d\u662f Setup\u3002\u4e0d\u662f\u4ea4\u6613\u3002B1 \u4e0d\u662f y\u3002\u4e0d\u51c6\u63a5 OF/SMC\u3002"
+}

@@ -1,0 +1,19 @@
+{
+  "decision": "PASS",
+  "kind": "FATE_CENSUS_OK",
+  "clock_ok": true,
+  "n_15m": 8641,
+  "n_b1": 8,
+  "n_s1": 10,
+  "n_1": 18,
+  "n_in_box_at_t1": 0,
+  "n_resume": 16,
+  "n_reentry": 0,
+  "n_reverse": 2,
+  "n_censor": 0,
+  "n_next_bar_fate": 14,
+  "resume_rate": 0.888889,
+  "hours_to_fate_p50": 0.25,
+  "hours_to_fate_means": "confirmation\u2192fate bar latency. \u2260 duration.",
+  "blocked": "B2/B3 HOLD\u3002\u65e0 EMA/OF/Trend Age\u3002\u4e0d\u51c6\u6539\u4e00\u7c7b\u3002\u4e0d\u51c6\u7528 find_first_bsp\u3002"
+}

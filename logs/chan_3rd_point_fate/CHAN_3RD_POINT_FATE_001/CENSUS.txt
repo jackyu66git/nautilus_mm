@@ -1,0 +1,15 @@
+CHAN_3RD_POINT_FATE_001  decision=PASS  kind=FATE_CENSUS_OK
+15m 离开 → 第一笔回抽不回中枢 → 三买之后命运。无 EMA。
+
+  漏斗  leave=57 → pullback_in=37 → n_3=20
+  fate  RESUME=18 REENTRY=2 REVERSE=0 CENSOR=0
+  resume_rate=0.9 hours_to_fate_p50=0.5  （判定延迟，≠持仓）
+  clock_ok=True
+
+hours_to_fate = confirmation → fate bar latency。1根15m=0.25h。从确认K下一根起算。
+分布：0.25h×10，0.5h×2，0.75h×4，2.25/3.25/3.75/7.75 各1。
+10/20 下一根即 Fate。p50=0.5h 因 n=20 取第11个（前10个都是0.25h）。≠典型两根K。
+
+语义：短期 continuation signature，不是长趋势/持仓时间。
+EMA52 只许解释 2 个 REENTRY / 区分 RESUME 质量，不准再发现 90% 延续。
+无 EMA/OF。不准放宽三买。9 vs 11 不是本枪对照。PULLBACK_IN 不是命运对照臂。

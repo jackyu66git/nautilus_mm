@@ -1,0 +1,11 @@
+CHAN_TRADE_OF_001 Phase 2  decision=FAIL  kind=CONDITIONAL_MECHANISM
+n_fx=1957  15m forming + aggTrades
+MECHANISM_STABLE / CONDITIONAL_MECHANISM / ARTIFACT  — 均不进交易层
+
+M0   PASS             n=1957 leak=0 rho_resid=-0.323 (Phase 1 control)
+M1   PASS             time terciles ρ=-0.281 n=653 ρ=-0.274 n=652 ρ=-0.344 n=652
+M2   PASS             bottom ρ=-0.318 n=978  top ρ=-0.327 n=979
+M3   FAIL             effort terciles |delta|/vol ρ=-0.023 n=652 ρ=-0.387 n=652 ρ=-0.630 n=653
+M4   PASS             resid+|range+1/n_levels ρ=-0.322  drop_p95 ρ=-0.256 n=1789  Spearman(HHI,1/n_levels)=0.767
+
+≠NEW_EDGE 不准 B1/B2 HTF SMC 5m absorption 交易层

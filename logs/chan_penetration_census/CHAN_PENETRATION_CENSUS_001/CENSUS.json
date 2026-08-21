@@ -1,0 +1,538 @@
+{
+  "decision": "PASS",
+  "kind": "HIERARCHY_CANDIDATE",
+  "n_event": 47,
+  "missing_anchor": 0,
+  "tape_row_mismatch": 0,
+  "bucket_min": 3,
+  "blob_max": 0.9,
+  "b2_decides_hierarchy": false,
+  "all": {
+    "mae_close": {
+      "n": 47,
+      "min": 175.3,
+      "p25": 1029.4,
+      "p50": 2518.3,
+      "p75": 4173.4,
+      "max": 19129.3
+    },
+    "mae_bar": {
+      "n": 47,
+      "min": 0.0,
+      "p25": 590.6,
+      "p50": 2449.0,
+      "p75": 4074.0,
+      "max": 19047.5
+    },
+    "mae_over_box": {
+      "n": 47,
+      "min": 0.4418,
+      "p25": 1.8074,
+      "p50": 5.4301,
+      "p75": 8.5112,
+      "max": 77.6
+    },
+    "mae_over_leave": {
+      "n": 47,
+      "min": 0.1247,
+      "p25": 0.7276,
+      "p50": 1.5456,
+      "p75": 2.4833,
+      "max": 11.8289
+    },
+    "hours_to_mae": {
+      "n": 47,
+      "min": 0.75,
+      "p25": 46.0,
+      "p50": 175.5,
+      "p75": 417.0,
+      "max": 911.0
+    },
+    "hours_to_pierce_leave_ext": {
+      "n": 31,
+      "min": 0.25,
+      "p25": 4.5,
+      "p50": 19.0,
+      "p75": 95.25,
+      "max": 449.75
+    },
+    "hours_to_enter_box_ext": {
+      "n": 44,
+      "min": 0.25,
+      "p25": 2.0,
+      "p50": 14.75,
+      "p75": 55.0,
+      "max": 439.25
+    },
+    "hours_to_through_far_ext": {
+      "n": 41,
+      "min": 0.25,
+      "p25": 0.25,
+      "p50": 0.25,
+      "p75": 40.0,
+      "max": 406.25
+    },
+    "pierce_leave_ext": {
+      "n": 47,
+      "k": 31,
+      "rate": 0.659574
+    },
+    "enter_box_ext": {
+      "n": 47,
+      "k": 44,
+      "rate": 0.93617
+    },
+    "through_far_ext": {
+      "n": 47,
+      "k": 41,
+      "rate": 0.87234
+    }
+  },
+  "by_family": {
+    "B1": {
+      "n": 18,
+      "layers": {
+        "n": 18,
+        "counts": {
+          "NONE": 0,
+          "SHALLOW": 4,
+          "PRIMARY": 14
+        },
+        "visible": [
+          "SHALLOW",
+          "PRIMARY"
+        ],
+        "top_share": 0.7778,
+        "has_layers": true
+      },
+      "mae_close": {
+        "n": 18,
+        "min": 255.2,
+        "p25": 589.6,
+        "p50": 2518.3,
+        "p75": 3634.0,
+        "max": 18092.3
+      },
+      "mae_bar": {
+        "n": 18,
+        "min": 168.7,
+        "p25": 447.8,
+        "p50": 2474.1,
+        "p75": 3253.4,
+        "max": 17948.1
+      },
+      "mae_over_box": {
+        "n": 18,
+        "min": 0.5597,
+        "p25": 1.5712,
+        "p50": 5.5051,
+        "p75": 7.2294,
+        "max": 41.9138
+      },
+      "mae_over_leave": {
+        "n": 18,
+        "min": 0.1595,
+        "p25": 0.2942,
+        "p50": 1.3463,
+        "p75": 2.4833,
+        "max": 11.8289
+      },
+      "hours_to_mae": {
+        "n": 18,
+        "min": 1.0,
+        "p25": 40.5,
+        "p50": 111.0,
+        "p75": 267.75,
+        "max": 838.25
+      },
+      "hours_to_pierce_leave_ext": {
+        "n": 14,
+        "min": 0.25,
+        "p25": 1.25,
+        "p50": 10.0,
+        "p75": 19.0,
+        "max": 449.75
+      },
+      "hours_to_enter_box_ext": {
+        "n": 16,
+        "min": 0.25,
+        "p25": 2.5,
+        "p50": 8.75,
+        "p75": 30.5,
+        "max": 132.75
+      },
+      "hours_to_through_far_ext": {
+        "n": 18,
+        "min": 0.25,
+        "p25": 0.25,
+        "p50": 0.25,
+        "p75": 0.25,
+        "max": 0.25
+      },
+      "hours_available": {
+        "n": 18,
+        "min": 110.75,
+        "p25": 633.5,
+        "p50": 960.25,
+        "p75": 1616.0,
+        "max": 2059.0
+      },
+      "pierce_leave_ext": {
+        "n": 18,
+        "k": 14,
+        "rate": 0.777778
+      },
+      "pierce_leave_close": {
+        "n": 18,
+        "k": 13,
+        "rate": 0.722222
+      },
+      "enter_box_ext": {
+        "n": 18,
+        "k": 16,
+        "rate": 0.888889
+      },
+      "enter_box_close": {
+        "n": 18,
+        "k": 16,
+        "rate": 0.888889
+      },
+      "through_far_ext": {
+        "n": 18,
+        "k": 18,
+        "rate": 1.0
+      },
+      "enter_leave": {
+        "n": 18,
+        "k": 1,
+        "rate": 0.055556
+      },
+      "t0_overlap_leave": {
+        "n": 18,
+        "k": 16,
+        "rate": 0.888889
+      },
+      "t0_in_box": {
+        "n": 18,
+        "k": 0,
+        "rate": 0.0
+      },
+      "t0_overlap_box": {
+        "n": 18,
+        "k": 0,
+        "rate": 0.0
+      }
+    },
+    "B2": {
+      "n": 9,
+      "layers": {
+        "n": 9,
+        "counts": {
+          "NONE": 0,
+          "SHALLOW": 7,
+          "PRIMARY": 2
+        },
+        "visible": [
+          "SHALLOW"
+        ],
+        "top_share": 0.7778,
+        "has_layers": false
+      },
+      "mae_close": {
+        "n": 9,
+        "min": 291.9,
+        "p25": 438.7,
+        "p50": 1029.4,
+        "p75": 1911.5,
+        "max": 4406.0
+      },
+      "mae_bar": {
+        "n": 9,
+        "min": 54.1,
+        "p25": 407.6,
+        "p50": 976.5,
+        "p75": 1879.1,
+        "max": 4390.5
+      },
+      "mae_over_box": {
+        "n": 9,
+        "min": 0.5507,
+        "p25": 1.4851,
+        "p50": 3.321,
+        "p75": 5.8074,
+        "max": 20.1378
+      },
+      "mae_over_leave": {
+        "n": 9,
+        "min": 0.2403,
+        "p25": 0.8139,
+        "p50": 1.1559,
+        "p75": 1.5726,
+        "max": 3.925
+      },
+      "hours_to_mae": {
+        "n": 9,
+        "min": 0.75,
+        "p25": 2.75,
+        "p50": 98.5,
+        "p75": 449.75,
+        "max": 820.75
+      },
+      "hours_to_pierce_leave_ext": {
+        "n": 2,
+        "min": 8.0,
+        "p25": 8.0,
+        "p50": 8.0,
+        "p75": 8.0,
+        "max": 325.0
+      },
+      "hours_to_enter_box_ext": {
+        "n": 9,
+        "min": 0.25,
+        "p25": 0.25,
+        "p50": 6.5,
+        "p75": 53.0,
+        "max": 322.75
+      },
+      "hours_to_through_far_ext": {
+        "n": 7,
+        "min": 0.25,
+        "p25": 0.25,
+        "p50": 0.25,
+        "p75": 7.0,
+        "max": 323.75
+      },
+      "hours_available": {
+        "n": 9,
+        "min": 399.25,
+        "p25": 668.75,
+        "p50": 873.75,
+        "p75": 1107.5,
+        "max": 1664.0
+      },
+      "pierce_leave_ext": {
+        "n": 9,
+        "k": 2,
+        "rate": 0.222222
+      },
+      "pierce_leave_close": {
+        "n": 9,
+        "k": 2,
+        "rate": 0.222222
+      },
+      "enter_box_ext": {
+        "n": 9,
+        "k": 9,
+        "rate": 1.0
+      },
+      "enter_box_close": {
+        "n": 9,
+        "k": 9,
+        "rate": 1.0
+      },
+      "through_far_ext": {
+        "n": 9,
+        "k": 7,
+        "rate": 0.777778
+      },
+      "enter_leave": {
+        "n": 9,
+        "k": 5,
+        "rate": 0.555556
+      },
+      "t0_overlap_leave": {
+        "n": 9,
+        "k": 4,
+        "rate": 0.444444
+      },
+      "t0_in_box": {
+        "n": 9,
+        "k": 1,
+        "rate": 0.111111
+      },
+      "t0_overlap_box": {
+        "n": 9,
+        "k": 1,
+        "rate": 0.111111
+      }
+    },
+    "B3": {
+      "n": 20,
+      "layers": {
+        "n": 20,
+        "counts": {
+          "NONE": 1,
+          "SHALLOW": 0,
+          "BOX": 3,
+          "THROUGH": 16
+        },
+        "visible": [
+          "BOX",
+          "THROUGH"
+        ],
+        "top_share": 0.8,
+        "has_layers": true
+      },
+      "mae_close": {
+        "n": 20,
+        "min": 175.3,
+        "p25": 1662.0,
+        "p50": 2871.2,
+        "p75": 4414.4,
+        "max": 19129.3
+      },
+      "mae_bar": {
+        "n": 20,
+        "min": 0.0,
+        "p25": 1644.6,
+        "p50": 2871.2,
+        "p75": 4371.5,
+        "max": 19047.5
+      },
+      "mae_over_box": {
+        "n": 20,
+        "min": 0.4418,
+        "p25": 2.6484,
+        "p50": 5.4301,
+        "p75": 8.8149,
+        "max": 77.6
+      },
+      "mae_over_leave": {
+        "n": 20,
+        "min": 0.1247,
+        "p25": 0.8451,
+        "p50": 1.698,
+        "p75": 2.36,
+        "max": 6.7433
+      },
+      "hours_to_mae": {
+        "n": 20,
+        "min": 2.25,
+        "p25": 80.0,
+        "p50": 202.25,
+        "p75": 412.25,
+        "max": 911.0
+      },
+      "hours_to_pierce_leave_ext": {
+        "n": 15,
+        "min": 1.25,
+        "p25": 9.0,
+        "p50": 64.75,
+        "p75": 95.25,
+        "max": 405.25
+      },
+      "hours_to_enter_box_ext": {
+        "n": 19,
+        "min": 0.75,
+        "p25": 2.0,
+        "p50": 20.75,
+        "p75": 63.75,
+        "max": 439.25
+      },
+      "hours_to_through_far_ext": {
+        "n": 16,
+        "min": 1.25,
+        "p25": 9.0,
+        "p50": 64.25,
+        "p75": 83.25,
+        "max": 406.25
+      },
+      "hours_available": {
+        "n": 20,
+        "min": 517.75,
+        "p25": 686.0,
+        "p50": 960.25,
+        "p75": 1691.75,
+        "max": 2096.5
+      },
+      "pierce_leave_ext": {
+        "n": 20,
+        "k": 15,
+        "rate": 0.75
+      },
+      "pierce_leave_close": {
+        "n": 20,
+        "k": 15,
+        "rate": 0.75
+      },
+      "enter_box_ext": {
+        "n": 20,
+        "k": 19,
+        "rate": 0.95
+      },
+      "enter_box_close": {
+        "n": 20,
+        "k": 18,
+        "rate": 0.9
+      },
+      "through_far_ext": {
+        "n": 20,
+        "k": 16,
+        "rate": 0.8
+      },
+      "enter_leave": {
+        "n": 20,
+        "k": 1,
+        "rate": 0.05
+      },
+      "t0_overlap_leave": {
+        "n": 20,
+        "k": 18,
+        "rate": 0.9
+      },
+      "t0_in_box": {
+        "n": 20,
+        "k": 0,
+        "rate": 0.0
+      },
+      "t0_overlap_box": {
+        "n": 20,
+        "k": 0,
+        "rate": 0.0
+      }
+    }
+  },
+  "hierarchy_b1": {
+    "n": 18,
+    "counts": {
+      "NONE": 0,
+      "SHALLOW": 4,
+      "PRIMARY": 14
+    },
+    "visible": [
+      "SHALLOW",
+      "PRIMARY"
+    ],
+    "top_share": 0.7778,
+    "has_layers": true
+  },
+  "hierarchy_b2": {
+    "n": 9,
+    "counts": {
+      "NONE": 0,
+      "SHALLOW": 7,
+      "PRIMARY": 2
+    },
+    "visible": [
+      "SHALLOW"
+    ],
+    "top_share": 0.7778,
+    "has_layers": false
+  },
+  "hierarchy_b3": {
+    "n": 20,
+    "counts": {
+      "NONE": 1,
+      "SHALLOW": 0,
+      "BOX": 3,
+      "THROUGH": 16
+    },
+    "visible": [
+      "BOX",
+      "THROUGH"
+    ],
+    "top_share": 0.8,
+    "has_layers": true
+  },
+  "blocked": "\u65e0 ATR \u9608\u503c\u3002\u65e0\u6b62\u635f\u4f18\u5316\u3002\u65e0\u6536\u76ca\u7387\u3002\u65e0 EMA/OF\u3002\u65e0 Fate/Continuation \u56de\u8c03\u3002MAE \u626b\u5230\u6837\u672c\u672b\uff0c\u4e0d\u662f\u5c40\u90e8\u5931\u6548\u6df1\u5ea6\u3002\u53ea\u8bfb\u9996\u6b21\u7a7f\u951a\u65f6\u95f4\u3002B1/B2 \u7684 enter_box/through_far \u4e0d\u662f\u53cd\u5411\u5931\u6548\uff08T0 \u591a\u5df2\u5728\u76d2\u5916\uff09\u3002\u5408\u6837\u672c pierce/box/far \u4e0d\u51c6\u5f53\u5c42\u7ea7\u3002HIERARCHY_CANDIDATE \u2260 \u5931\u6548\u8fb9\u754c\u3002\u7b2c\u4e8c\u95f8\u53e6\u6388\u6743\u3002HOLD_NO_HIERARCHY \u2192 \u672c\u7ebf\u5173\u95ed\uff0c\u4e0d\u51c6\u8865 ATR\u3002"
+}

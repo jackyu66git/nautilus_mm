@@ -1,0 +1,30 @@
+{
+  "decision": "PASS",
+  "kind": "SAMPLE_INSUFFICIENT",
+  "clock_ok": true,
+  "n_1h": 2161,
+  "n_range": 446,
+  "n_transition": 105,
+  "n_trend_up": 689,
+  "n_trend_down": 836,
+  "n_none": 85,
+  "n_episode": 120,
+  "n_checkpoint": 53,
+  "n_near": 3,
+  "n_mid": 7,
+  "n_far": 36,
+  "n_cross": 7,
+  "near_resume": 0.333333,
+  "far_resume": 0.694444,
+  "near_reentry": 0.666667,
+  "far_reentry": 0.25,
+  "near_hours_p50": 19,
+  "far_hours_p50": 15,
+  "fate_all": {
+    "RESUME": 87,
+    "RANGE_REENTRY": 28,
+    "REVERSE": 1,
+    "NEW_ZS": 4
+  },
+  "blocked": "\u65e0 OF/MACD/\u4e09\u4e70/\u9608\u503c\u641c\u7d22\u3002RANGE \u4e0d\u8fdb\u5bf9\u7167\u3002WHERE_001 \u6570\u5b57\u4e0d\u53ef\u53d8\u3002"
+}

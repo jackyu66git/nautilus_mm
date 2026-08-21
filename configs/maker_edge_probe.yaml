@@ -1,0 +1,24 @@
+# Reference config (env vars in .env take precedence for secrets)
+# Experiment identity — do not change mid-run to "make report look better"
+
+experiment_id: MM_EDGE_EXP_001
+probe_version: probe_v0.1
+quote: frozen
+fee: frozen
+exchange: frozen
+
+trader_id: MAKER-EDGE-001
+symbol: BTCUSDT-PERP
+account_type: USDT_FUTURES
+environment: TESTNET  # TESTNET | LIVE
+
+order_qty: "0.001"
+book_depth: 10
+quote_offset_ticks: 1
+max_quotes: 1
+cooldown_secs: 60
+obi_enter: 0.25
+enable_trading: true
+
+proxy: http://127.0.0.1:7897
+log_dir: logs/maker_edge

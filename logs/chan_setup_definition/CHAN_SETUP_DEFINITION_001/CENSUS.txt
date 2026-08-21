@@ -1,0 +1,26 @@
+CHAN_SETUP_DEFINITION_001 Census  decision=PASS  kind=CENSUS_OK
+Setup_CANDIDATE 观察状态普查。不解释、不买卖、不看盈亏。
+T_SETUP_VISIBLE = Tape 上行序第一次出现该 ltf_fx_id 的 t。
+
+C0   PASS             n=8641 unique_t=8641
+C1   PASS             T_SETUP_VISIBLE=first Tape row of ltf_fx_id leak_n=0
+C2   PASS             birth leftover>=1 leftover0_born=0
+C3   PASS             unique setup_id n=2342 unique=2342
+C4   PASS             no WR/MFE/OF/SMC/B1/T_FX_VISIBLE dirty=0
+C5   PASS             row-order rescan n=2342
+C6   PASS             span_days=90.0
+
+  n_setup=2342
+  per_day=26.022222
+  per_1000_bars=271.033445
+  n_tape_rows=8641 span_days=90.0
+  n_unique_fx_id=2940
+  n_fx_id_consumed_leftover0=598
+  n_rows_leftover_ge1=6843
+  duration_hours min=0.0 p50=0.25 max=4.0
+  duration_bars min=1.0 p50=2.0 max=17.0
+  interval_hours min=0.25 p50=0.5 max=4.25
+  htf_anchor_count_at_birth={1: 374, 2: 175, 3: 150, 4: 208, 5: 241, 6: 389, 7: 247, 8: 237, 9: 119, 10: 202}
+  ltf_fx_at_birth={'BOTTOM': 1171, 'TOP': 1171}
+
+MFE MAE WR PF Entry OF SMC B1→B2 阈值 未跑。下一枪未授权。

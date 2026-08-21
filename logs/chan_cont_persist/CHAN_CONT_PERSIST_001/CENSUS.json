@@ -1,0 +1,122 @@
+{
+  "decision": "PASS",
+  "kind": "ONE_BAR_ARTIFACT",
+  "n_15m": 8641,
+  "n_event": 47,
+  "n_buy": 24,
+  "n_sell": 23,
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "by_h": {
+    "1": {
+      "n_hit": 27,
+      "event_rate": 0.574468,
+      "mix_null": 0.463342,
+      "delta": 0.111126,
+      "null_n": 8600,
+      "null_p_up": 0.453953,
+      "null_p_down": 0.47314,
+      "by_family": {
+        "B1": {
+          "n": 18,
+          "hit": 12,
+          "rate": 0.666667
+        },
+        "B2": {
+          "n": 9,
+          "hit": 5,
+          "rate": 0.555556
+        },
+        "B3": {
+          "n": 20,
+          "hit": 10,
+          "rate": 0.5
+        }
+      }
+    },
+    "2": {
+      "n_hit": 8,
+      "event_rate": 0.170213,
+      "mix_null": 0.232118,
+      "delta": -0.061905,
+      "null_n": 8599,
+      "null_p_up": 0.22398,
+      "null_p_down": 0.240609,
+      "by_family": {
+        "B1": {
+          "n": 18,
+          "hit": 4,
+          "rate": 0.222222
+        },
+        "B2": {
+          "n": 9,
+          "hit": 2,
+          "rate": 0.222222
+        },
+        "B3": {
+          "n": 20,
+          "hit": 2,
+          "rate": 0.1
+        }
+      }
+    },
+    "3": {
+      "n_hit": 3,
+      "event_rate": 0.06383,
+      "mix_null": 0.112775,
+      "delta": -0.048945,
+      "null_n": 8598,
+      "null_p_up": 0.10549,
+      "null_p_down": 0.120377,
+      "by_family": {
+        "B1": {
+          "n": 18,
+          "hit": 2,
+          "rate": 0.111111
+        },
+        "B2": {
+          "n": 9,
+          "hit": 1,
+          "rate": 0.111111
+        },
+        "B3": {
+          "n": 20,
+          "hit": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    "4": {
+      "n_hit": 1,
+      "event_rate": 0.021277,
+      "mix_null": 0.055527,
+      "delta": -0.03425,
+      "null_n": 8597,
+      "null_p_up": 0.049436,
+      "null_p_down": 0.061882,
+      "by_family": {
+        "B1": {
+          "n": 18,
+          "hit": 1,
+          "rate": 0.055556
+        },
+        "B2": {
+          "n": 9,
+          "hit": 0,
+          "rate": 0.0
+        },
+        "B3": {
+          "n": 20,
+          "hit": 0,
+          "rate": 0.0
+        }
+      }
+    }
+  },
+  "y": "chain high[i+k]>high[i+k-1] (buy). not vs T0 only. not Fate.",
+  "blocked": "B1/B2/B3 HOLD\u3002\u65e0 EMA/OF/Trend Age\u3002\u4e0d\u51c6\u4f18\u5316 H\u3002\u4e0d\u51c6\u5408\u6876\u5f53 Alpha\u3002"
+}

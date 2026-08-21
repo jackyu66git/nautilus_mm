@@ -1,0 +1,9 @@
+CHAN_3BUY_15M_UNIVERSE_001  decision=PASS  kind=UNIVERSE_OK
+冻结定义，15m 与 1H 独立重识别。无 EMA。
+
+  1H  n_bars=2161 n_zs=11 n_leave=11 B3=0 S3=1 n_3=1
+  15m n_bars=8641 n_zs=57 n_leave=57 B3=12 S3=8 n_3=20
+  frozen_15m_events=20 regen_equals_frozen=True
+  only_regen=0 only_frozen=0
+
+无 EMA/OF。不准改三买定义。不准改 CHAN_3BUY_EMA52_001 的 9 vs 11。

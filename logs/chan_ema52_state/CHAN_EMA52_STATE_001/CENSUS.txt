@@ -1,0 +1,12 @@
+CHAN_EMA52_STATE_001  decision=PASS  kind=SAMPLE_INSUFFICIENT
+Trend 内 NEAR vs FAR。RANGE 穿越不进对照。EMA 参数同 WHERE_001。
+
+  n_1h=2161 RANGE=446 TRANS=105 UP=689 DOWN=836 NONE=85
+  n_episode=120 checkpoint=53
+  NEAR=3 MID=7 FAR=36 CROSS=7
+  near_resume=0.333333 far_resume=0.694444
+  near_reentry=0.666667 far_reentry=0.25
+  near_hours_p50=19 far_hours_p50=15
+  fate={'RESUME': 87, 'RANGE_REENTRY': 28, 'REVERSE': 1, 'NEW_ZS': 4} clock_ok=True
+
+无 OF/MACD/三买/阈值搜索。RANGE 不进对照。WHERE_001 数字不可变。

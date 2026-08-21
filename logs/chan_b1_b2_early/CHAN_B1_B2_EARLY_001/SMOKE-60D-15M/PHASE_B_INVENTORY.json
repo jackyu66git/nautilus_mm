@@ -1,0 +1,60 @@
+{
+  "experiment": "CHAN_B1_B2_EARLY_001",
+  "phase": "B",
+  "probe_version": "of_lead_15m_v0.1",
+  "tf": "15m",
+  "run_id": "SMOKE-60D-15M",
+  "of_source": "binanceusdm 1m kline taker_buy_base (field 9) → 15m sum",
+  "of_event": "DELTA_SIGN_FLIP",
+  "online_source": "PASS",
+  "online_hits": [],
+  "1m": {
+    "expected": 86400,
+    "actual": 86400,
+    "gaps": 0,
+    "first_open": "2026-06-20T10:39:00+00:00",
+    "last_open": "2026-08-19T10:38:00+00:00"
+  },
+  "structure": {
+    "expected": 5759,
+    "actual": 5759,
+    "gaps": 0,
+    "tf": "15m",
+    "minutes": 15
+  },
+  "n_of_15m": 5759,
+  "n_cases": 5,
+  "n_causal": 5,
+  "n_with_flip": 5,
+  "n_every_bar_flip": 0,
+  "n_same_root": 4,
+  "n_eq_first_price_flip": 4,
+  "n_flips_p50": 6,
+  "n_window_p50": 13,
+  "lead_15m_p0": 10,
+  "lead_15m_p50": 13,
+  "lead_15m_p100": 17,
+  "t0_of_sign": [
+    1,
+    1,
+    1,
+    -1,
+    1
+  ],
+  "leads": [
+    11,
+    10,
+    13,
+    13,
+    17
+  ],
+  "first_flips": [
+    544,
+    2254,
+    3226,
+    5045,
+    5317
+  ],
+  "failed_at": null,
+  "decision": "PASS"
+}

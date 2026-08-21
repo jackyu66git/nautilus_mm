@@ -1,0 +1,86 @@
+{
+  "decision": "PASS",
+  "kind": "OUTCOME_OK",
+  "gates": [
+    {
+      "name": "C0",
+      "verdict": "PASS",
+      "detail": "n_tape=8641"
+    },
+    {
+      "name": "C1",
+      "verdict": "PASS",
+      "detail": "n_setup=2341 n_clock_drop=1 unique=2341"
+    },
+    {
+      "name": "C2",
+      "verdict": "PASS",
+      "detail": "T_SETUP_VISIBLE < T_OUTCOME_VISIBLE and outcome_row > tape_row"
+    },
+    {
+      "name": "C3",
+      "verdict": "PASS",
+      "detail": "class mapping frozen b1_as_event=0"
+    },
+    {
+      "name": "C4",
+      "verdict": "PASS",
+      "detail": "no WR/MFE/OF/SMC/success dirty=0"
+    },
+    {
+      "name": "C5",
+      "verdict": "PASS",
+      "detail": "b1_lock rows with >1 setup n=0"
+    },
+    {
+      "name": "C6",
+      "verdict": "PASS",
+      "detail": "summary n=2341 clock_drop=1"
+    },
+    {
+      "name": "C7",
+      "verdict": "PASS",
+      "detail": "no hit_rate/success in summary"
+    }
+  ],
+  "summary": {
+    "n_mother": 2342,
+    "n_setup": 2341,
+    "n_clock_drop": 1,
+    "clock_drop_ids": [
+      "2026-08-19 09:45:00"
+    ],
+    "span_days": 90.0,
+    "outcome_class": {
+      "CONTINUES": 0,
+      "REVERSES": 321,
+      "DISSOLVES": 2020,
+      "NEXT_EVENT": 0,
+      "CENSOR": 0
+    },
+    "outcome_event": {
+      "BI_SURE_ON": 0,
+      "BI_DIR_CHANGE": 321,
+      "BI_SURE_OFF": 0,
+      "FX_IDENTITY_CHANGE": 2020,
+      "CENSOR": 0
+    },
+    "n_censor": 0,
+    "label_b1_true": 5,
+    "label_b1_false": 2336,
+    "label_b1_by_outcome_class": {
+      "REVERSES": 5
+    },
+    "label_b1_by_outcome_event": {
+      "BI_DIR_CHANGE": 5
+    },
+    "label_b2": "UNAVAILABLE",
+    "duration_hours": {
+      "n": 2341,
+      "min": 0.25,
+      "p50": 0.5,
+      "max": 4.25
+    }
+  },
+  "blocked": "MFE MAE WR PF Entry OF SMC leftover\u5206\u5c42 \u672a\u8dd1\u3002\u4e0b\u4e00\u67aa\u672a\u6388\u6743\u3002"
+}

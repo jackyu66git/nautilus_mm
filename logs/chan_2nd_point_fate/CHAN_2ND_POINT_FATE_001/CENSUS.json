@@ -1,0 +1,20 @@
+{
+  "decision": "PASS",
+  "kind": "FATE_CENSUS_OK",
+  "clock_ok": true,
+  "n_15m": 8641,
+  "n_leave": 57,
+  "n_no_first": 34,
+  "n_broke_first": 14,
+  "n_b2": 4,
+  "n_s2": 5,
+  "n_2": 9,
+  "n_in_box_at_t2": 1,
+  "n_resume": 9,
+  "n_reentry": 0,
+  "n_reverse": 0,
+  "n_censor": 0,
+  "resume_rate": 1.0,
+  "hours_to_fate_p50": 0.25,
+  "blocked": "\u4e09\u4e70 HOLD\u3002\u65e0 EMA/OF/Trend Age\u3002\u4e0d\u51c6\u653e\u5bbd\u4e00\u7c7b\u95e8\u69db\u3002\u4e0d\u51c6\u6269\u7a97\u3002"
+}

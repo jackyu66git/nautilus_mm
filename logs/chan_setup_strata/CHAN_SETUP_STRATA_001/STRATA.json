@@ -1,0 +1,271 @@
+{
+  "decision": "PASS",
+  "kind": "STRATA_OK",
+  "gates": [
+    {
+      "name": "C0",
+      "verdict": "PASS",
+      "detail": "n_tape=8641"
+    },
+    {
+      "name": "C1",
+      "verdict": "PASS",
+      "detail": "mother=2342 outcome=2341 rows=2341 clock_drop=1"
+    },
+    {
+      "name": "C2",
+      "verdict": "PASS",
+      "detail": "clock_drop excluded ids=['2026-08-19 09:45:00']"
+    },
+    {
+      "name": "C3",
+      "verdict": "PASS",
+      "detail": "Y = frozen outcome_class, not recomputed"
+    },
+    {
+      "name": "C4",
+      "verdict": "PASS",
+      "detail": "tables=['bi_state', 'fractal_direction', 'htf_leftover_count', 'space_relation']"
+    },
+    {
+      "name": "C5",
+      "verdict": "PASS",
+      "detail": "table_n={'htf_leftover_count': 2341, 'space_relation': 2341, 'bi_state': 2341, 'fractal_direction': 2341}"
+    },
+    {
+      "name": "C6",
+      "verdict": "PASS",
+      "detail": "anchor_levels=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    },
+    {
+      "name": "C7",
+      "verdict": "PASS",
+      "detail": "no hit_rate/p_value/NEW_SETUP/4-way dirty=[]"
+    }
+  ],
+  "n_clock_drop": 1,
+  "clock_drop_ids": [
+    "2026-08-19 09:45:00"
+  ],
+  "tables": {
+    "htf_leftover_count": [
+      {
+        "level": 1,
+        "n": 374,
+        "CONTINUES": 0,
+        "REVERSES": 46,
+        "DISSOLVES": 328,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.877005
+      },
+      {
+        "level": 2,
+        "n": 175,
+        "CONTINUES": 0,
+        "REVERSES": 22,
+        "DISSOLVES": 153,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.874286
+      },
+      {
+        "level": 3,
+        "n": 150,
+        "CONTINUES": 0,
+        "REVERSES": 22,
+        "DISSOLVES": 128,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.853333
+      },
+      {
+        "level": 4,
+        "n": 208,
+        "CONTINUES": 0,
+        "REVERSES": 29,
+        "DISSOLVES": 179,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.860577
+      },
+      {
+        "level": 5,
+        "n": 241,
+        "CONTINUES": 0,
+        "REVERSES": 39,
+        "DISSOLVES": 202,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.838174
+      },
+      {
+        "level": 6,
+        "n": 389,
+        "CONTINUES": 0,
+        "REVERSES": 53,
+        "DISSOLVES": 336,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.863753
+      },
+      {
+        "level": 7,
+        "n": 247,
+        "CONTINUES": 0,
+        "REVERSES": 33,
+        "DISSOLVES": 214,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.866397
+      },
+      {
+        "level": 8,
+        "n": 237,
+        "CONTINUES": 0,
+        "REVERSES": 29,
+        "DISSOLVES": 208,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.877637
+      },
+      {
+        "level": 9,
+        "n": 119,
+        "CONTINUES": 0,
+        "REVERSES": 17,
+        "DISSOLVES": 102,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.857143
+      },
+      {
+        "level": 10,
+        "n": 201,
+        "CONTINUES": 0,
+        "REVERSES": 31,
+        "DISSOLVES": 170,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.845771
+      }
+    ],
+    "space_relation": [
+      {
+        "level": "CONTACT_BOX",
+        "n": 61,
+        "CONTINUES": 0,
+        "REVERSES": 4,
+        "DISSOLVES": 57,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.934426
+      },
+      {
+        "level": "ABOVE_BOX",
+        "n": 1005,
+        "CONTINUES": 0,
+        "REVERSES": 142,
+        "DISSOLVES": 863,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.858706
+      },
+      {
+        "level": "BELOW_BOX",
+        "n": 1064,
+        "CONTINUES": 0,
+        "REVERSES": 148,
+        "DISSOLVES": 916,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.860902
+      },
+      {
+        "level": "STRADDLE_BOX",
+        "n": 211,
+        "CONTINUES": 0,
+        "REVERSES": 27,
+        "DISSOLVES": 184,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.872038
+      }
+    ],
+    "bi_state": [
+      {
+        "level": "UP_SURE",
+        "n": 0,
+        "CONTINUES": 0,
+        "REVERSES": 0,
+        "DISSOLVES": 0,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": null
+      },
+      {
+        "level": "UP_UNSURE",
+        "n": 1120,
+        "CONTINUES": 0,
+        "REVERSES": 160,
+        "DISSOLVES": 960,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.857143
+      },
+      {
+        "level": "DOWN_SURE",
+        "n": 0,
+        "CONTINUES": 0,
+        "REVERSES": 0,
+        "DISSOLVES": 0,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": null
+      },
+      {
+        "level": "DOWN_UNSURE",
+        "n": 1221,
+        "CONTINUES": 0,
+        "REVERSES": 161,
+        "DISSOLVES": 1060,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.868141
+      },
+      {
+        "level": "BI_DIR_NONE",
+        "n": 0,
+        "CONTINUES": 0,
+        "REVERSES": 0,
+        "DISSOLVES": 0,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": null
+      }
+    ],
+    "fractal_direction": [
+      {
+        "level": "TOP",
+        "n": 1170,
+        "CONTINUES": 0,
+        "REVERSES": 160,
+        "DISSOLVES": 1010,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.863248
+      },
+      {
+        "level": "BOTTOM",
+        "n": 1171,
+        "CONTINUES": 0,
+        "REVERSES": 161,
+        "DISSOLVES": 1010,
+        "NEXT_EVENT": 0,
+        "CENSOR": 0,
+        "dissolves_share": 0.862511
+      }
+    ]
+  },
+  "blocked": "\u4e0d\u51c6\u6536\u7d27 Setup\u3002\u4e0d\u51c6\u7814\u7a76 B1\u3002\u4e0d\u51c6 OF/SMC/MFE\u3002\u4e0b\u4e00\u67aa\u672a\u6388\u6743\u3002"
+}

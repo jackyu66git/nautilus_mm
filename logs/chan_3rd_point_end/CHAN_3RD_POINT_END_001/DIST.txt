@@ -1,0 +1,19 @@
+CHAN_3RD_POINT_END_001  全 20 事件 Trend Age 分布（附录，数字来自同一 EVENTS.jsonl）
+
+SEGMENT     n   RESUME  REENTRY
+NONE        1      1       0
+EARLY       3      3       0
+MID         6      6       0
+SHIFT       7      7       0
+LATE        3      1       2
+
+SHIFT 7/7 RESUME。SHIFT ≠ 三买危险。
+LATE 3 个里 2 个 REENTRY，n=3 仍不够当 Modifier，更不能写进三买规则。
+
+两个 REENTRY 都 LATE，机制不同：
+  2026-06-07 B3  TREND_DOWN 290h  逆大级别
+  2026-07-24 B3  TREND_UP    88h  同向后段
+不准归纳成「趋势末端三买容易失败」。
+
+Trend Age = 候选解释变量，当前仅 ATTRIBUTION。
+EMA52 冻结。OF 不进。不准改三买定义。

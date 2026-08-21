@@ -1,0 +1,19 @@
+CHAN_HTF_ZS_LTF_B1_001 Phase 0  decision=PASS  kind=SPACE_OBJECT_EXISTS
+1H ZS × 15m B1_LOCK  时序/空间审计。不比较 B1→B2。不接 OF/SMC
+
+C0   PASS             n_LTF_B1=5
+C1   PASS             strict T_HTF_ZS_VISIBLE < T_LTF_B1; HTF BSP absent
+C2   PASS             zg/zd unchanged vs visibility on all B1 snapshots
+C3   PASS             prior living HTF ZS on 5/5  NO_HTF_ZS=0
+C4   PASS             INSIDE=0 BOUNDARY_CONTACT=0 OUTSIDE=5
+
+  n_ltf_b1=5
+  n_prior_valid=5
+  n_no_htf_zs=0
+  n_leftover=0
+  buckets={'OUTSIDE': 5}
+  delta_t_hours_p50=58.0
+  delta_t_hours_min=6.5
+  delta_t_hours_max=233.25
+
+Phase2 B1→B2=BLOCKED OF=BLOCKED SMC=BLOCKED HTF_BSP=FORBIDDEN Entry=FORBIDDEN 5m=BLOCKED

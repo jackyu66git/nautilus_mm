@@ -1,0 +1,98 @@
+{
+  "experiment": "CHAN_FX_BI_TRADE_OF_001",
+  "phase": "contrast",
+  "scale": "15m Fractal + aggTrades HHI/push",
+  "decision": "FAIL",
+  "kind": "NO_INCREMENT",
+  "n_events": 1957,
+  "n_bottom": 978,
+  "n_bi": 136,
+  "n_ordinary": 842,
+  "gates": [
+    {
+      "name": "C0",
+      "verdict": "PASS",
+      "detail": "join 1:1 n=1957 bottom=978 ordinary=842 bi_endpoint=136"
+    },
+    {
+      "name": "C1",
+      "verdict": "PASS",
+      "detail": "leak=0 retracted=0 n=1957 label=sure-bi-only B1/B2=absent"
+    },
+    {
+      "name": "C2",
+      "verdict": "FAIL",
+      "detail": "HHI and push no contrast cliff_delta=-0.316 cliff_hhi=-0.104 cliff_push=-0.125 bi_delta_p50=-256.2 ord_delta_p50=-72.03"
+    },
+    {
+      "name": "C3",
+      "verdict": "NOT_RUN",
+      "detail": "C2 FAIL"
+    }
+  ],
+  "summary": {
+    "n_bottom": 978,
+    "n_bi": 136,
+    "n_ordinary": 842,
+    "base_rate": 0.1390593047034765,
+    "bi_delta": {
+      "n": 136,
+      "p10": -1413.3535,
+      "p50": -256.21999999999997,
+      "p90": 116.24149999999995
+    },
+    "ord_delta": {
+      "n": 842,
+      "p10": -645.1318999999999,
+      "p50": -72.02699999999999,
+      "p90": 306.8193999999998
+    },
+    "bi_hhi": {
+      "n": 136,
+      "p10": 0.001708022668736841,
+      "p50": 0.004286813631385951,
+      "p90": 0.012181672945098677
+    },
+    "ord_hhi": {
+      "n": 842,
+      "p10": 0.001876232881309401,
+      "p50": 0.0046829050580650365,
+      "p90": 0.015581021123656745
+    },
+    "bi_push": {
+      "n": 136,
+      "p10": 0.064687037847051,
+      "p50": 0.2387255232391678,
+      "p90": 1.0311780367751235
+    },
+    "ord_push": {
+      "n": 842,
+      "p10": 0.06565820805944311,
+      "p50": 0.30172184512643707,
+      "p90": 1.7192541213661428
+    },
+    "cliff_delta": -0.3161764705882353,
+    "cliff_hhi": -0.10398910157887382,
+    "cliff_push": -0.12496506916305715,
+    "auc_delta_lower": 0.6580882352941176,
+    "auc_hhi_higher": 0.44800544921056307,
+    "topk_delta": {
+      "k": 136,
+      "hits": 38,
+      "rate": 0.27941176470588236
+    },
+    "topk_hhi": {
+      "k": 136,
+      "hits": 25,
+      "higher_first": false,
+      "rate": 0.18382352941176472
+    },
+    "topk_push": {
+      "k": 136,
+      "hits": 22,
+      "higher_first": false,
+      "rate": 0.16176470588235295
+    }
+  },
+  "blocked": "\u2260NEW_EDGE \u4e0d\u51c6 B1/B2 HTF SMC 5m absorption classifier \u4ea4\u6613\u5c42 Phase3-HHI"
+}

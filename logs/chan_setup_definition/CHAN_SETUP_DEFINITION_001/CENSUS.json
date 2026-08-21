@@ -1,0 +1,89 @@
+{
+  "decision": "PASS",
+  "kind": "CENSUS_OK",
+  "gates": [
+    {
+      "name": "C0",
+      "verdict": "PASS",
+      "detail": "n=8641 unique_t=8641"
+    },
+    {
+      "name": "C1",
+      "verdict": "PASS",
+      "detail": "T_SETUP_VISIBLE=first Tape row of ltf_fx_id leak_n=0"
+    },
+    {
+      "name": "C2",
+      "verdict": "PASS",
+      "detail": "birth leftover>=1 leftover0_born=0"
+    },
+    {
+      "name": "C3",
+      "verdict": "PASS",
+      "detail": "unique setup_id n=2342 unique=2342"
+    },
+    {
+      "name": "C4",
+      "verdict": "PASS",
+      "detail": "no WR/MFE/OF/SMC/B1/T_FX_VISIBLE dirty=0"
+    },
+    {
+      "name": "C5",
+      "verdict": "PASS",
+      "detail": "row-order rescan n=2342"
+    },
+    {
+      "name": "C6",
+      "verdict": "PASS",
+      "detail": "span_days=90.0"
+    }
+  ],
+  "summary": {
+    "n_tape_rows": 8641,
+    "span_days": 90.0,
+    "first_t": "2026-05-21 10:45:00+00:00",
+    "last_t": "2026-08-19 10:45:00+00:00",
+    "n_rows_leftover_ge1": 6843,
+    "n_rows_valid_fx": 8641,
+    "n_unique_fx_id": 2940,
+    "n_fx_id_consumed_leftover0": 598,
+    "n_setup": 2342,
+    "per_day": 26.022222,
+    "per_1000_bars": 271.033445,
+    "duration_hours": {
+      "n": 2342,
+      "min": 0.0,
+      "p50": 0.25,
+      "max": 4.0
+    },
+    "duration_bars": {
+      "n": 2342,
+      "min": 1.0,
+      "p50": 2.0,
+      "max": 17.0
+    },
+    "interval_hours": {
+      "n": 2341,
+      "min": 0.25,
+      "p50": 0.5,
+      "max": 4.25
+    },
+    "htf_anchor_count_at_birth": {
+      "1": 374,
+      "2": 175,
+      "3": 150,
+      "4": 208,
+      "5": 241,
+      "6": 389,
+      "7": 247,
+      "8": 237,
+      "9": 119,
+      "10": 202
+    },
+    "ltf_fx_at_birth": {
+      "BOTTOM": 1171,
+      "TOP": 1171
+    }
+  },
+  "blocked": "MFE MAE WR PF Entry OF SMC B1\u2192B2 \u9608\u503c \u672a\u8dd1\u3002\u4e0b\u4e00\u67aa\u672a\u6388\u6743\u3002"
+}

@@ -1,0 +1,376 @@
+{
+  "decision": "HOLD",
+  "kind": "FAMILY_SPLIT",
+  "freeze": null,
+  "n_event": 20,
+  "variants": {
+    "V2_050": {
+      "tp_mult": 0.5,
+      "all": {
+        "n": 20,
+        "traded": 20,
+        "outcome": {
+          "TIME_EXIT": 6,
+          "LOSS": 3,
+          "WIN": 11
+        },
+        "win": 11,
+        "loss": 3,
+        "time_exit": 6,
+        "time_share": 0.3,
+        "target_hit": 0.55,
+        "stop_share": 0.15,
+        "win_rate_resolved": 0.785714,
+        "avg_r": 0.090864,
+        "median_r": 0.5,
+        "total_r": 1.817283,
+        "total_usdt": 908.6414,
+        "pf": 1.833333,
+        "hours_to_tp": {
+          "n": 11,
+          "min": 0.25,
+          "p25": 0.5,
+          "p50": 4.25,
+          "p75": 11.5,
+          "max": 22.25
+        },
+        "hours_to_stop": {
+          "n": 3,
+          "min": 4.25,
+          "p25": 4.25,
+          "p50": 4.25,
+          "p75": 4.25,
+          "max": 14.0
+        }
+      },
+      "B3": {
+        "n": 12,
+        "traded": 12,
+        "outcome": {
+          "TIME_EXIT": 3,
+          "WIN": 8,
+          "LOSS": 1
+        },
+        "win": 8,
+        "loss": 1,
+        "time_exit": 3,
+        "time_share": 0.25,
+        "target_hit": 0.666667,
+        "stop_share": 0.083333,
+        "win_rate_resolved": 0.888889,
+        "avg_r": 0.226247,
+        "median_r": 0.5,
+        "total_r": 2.714967,
+        "total_usdt": 1357.4832,
+        "pf": 4.0,
+        "hours_to_tp": {
+          "n": 8,
+          "min": 0.25,
+          "p25": 0.5,
+          "p50": 1.0,
+          "p75": 9.25,
+          "max": 13.25
+        },
+        "hours_to_stop": {
+          "n": 1,
+          "min": 4.25,
+          "p25": 4.25,
+          "p50": 4.25,
+          "p75": 4.25,
+          "max": 4.25
+        }
+      },
+      "S3": {
+        "n": 8,
+        "traded": 8,
+        "outcome": {
+          "LOSS": 2,
+          "WIN": 3,
+          "TIME_EXIT": 3
+        },
+        "win": 3,
+        "loss": 2,
+        "time_exit": 3,
+        "time_share": 0.375,
+        "target_hit": 0.375,
+        "stop_share": 0.25,
+        "win_rate_resolved": 0.6,
+        "avg_r": -0.11221,
+        "median_r": 0.134331,
+        "total_r": -0.897684,
+        "total_usdt": -448.8418,
+        "pf": 0.75,
+        "hours_to_tp": {
+          "n": 3,
+          "min": 4.25,
+          "p25": 4.25,
+          "p50": 11.5,
+          "p75": 11.5,
+          "max": 22.25
+        },
+        "hours_to_stop": {
+          "n": 2,
+          "min": 4.25,
+          "p25": 4.25,
+          "p50": 4.25,
+          "p75": 4.25,
+          "max": 14.0
+        }
+      },
+      "gate": {
+        "variant": "V2_050",
+        "time_ok": true,
+        "expectancy_ok": true,
+        "no_conflict": false,
+        "loo_ok": true,
+        "pass": false
+      }
+    },
+    "V2_075": {
+      "tp_mult": 0.75,
+      "all": {
+        "n": 20,
+        "traded": 20,
+        "outcome": {
+          "TIME_EXIT": 10,
+          "LOSS": 4,
+          "WIN": 6
+        },
+        "win": 6,
+        "loss": 4,
+        "time_exit": 10,
+        "time_share": 0.5,
+        "target_hit": 0.3,
+        "stop_share": 0.2,
+        "win_rate_resolved": 0.6,
+        "avg_r": -0.004518,
+        "median_r": 0.125387,
+        "total_r": -0.090363,
+        "total_usdt": -45.1822,
+        "pf": 1.125,
+        "hours_to_tp": {
+          "n": 6,
+          "min": 0.25,
+          "p25": 1.0,
+          "p50": 3.5,
+          "p75": 4.75,
+          "max": 11.5
+        },
+        "hours_to_stop": {
+          "n": 4,
+          "min": 1.0,
+          "p25": 1.0,
+          "p50": 4.25,
+          "p75": 4.25,
+          "max": 14.0
+        }
+      },
+      "B3": {
+        "n": 12,
+        "traded": 12,
+        "outcome": {
+          "TIME_EXIT": 6,
+          "WIN": 4,
+          "LOSS": 2
+        },
+        "win": 4,
+        "loss": 2,
+        "time_exit": 6,
+        "time_share": 0.5,
+        "target_hit": 0.333333,
+        "stop_share": 0.166667,
+        "win_rate_resolved": 0.666667,
+        "avg_r": 0.056972,
+        "median_r": 0.150688,
+        "total_r": 0.683669,
+        "total_usdt": 341.8336,
+        "pf": 1.5,
+        "hours_to_tp": {
+          "n": 4,
+          "min": 0.25,
+          "p25": 0.25,
+          "p50": 1.0,
+          "p75": 3.5,
+          "max": 10.75
+        },
+        "hours_to_stop": {
+          "n": 2,
+          "min": 1.0,
+          "p25": 1.0,
+          "p50": 1.0,
+          "p75": 1.0,
+          "max": 4.25
+        }
+      },
+      "S3": {
+        "n": 8,
+        "traded": 8,
+        "outcome": {
+          "LOSS": 2,
+          "WIN": 2,
+          "TIME_EXIT": 4
+        },
+        "win": 2,
+        "loss": 2,
+        "time_exit": 4,
+        "time_share": 0.5,
+        "target_hit": 0.25,
+        "stop_share": 0.25,
+        "win_rate_resolved": 0.5,
+        "avg_r": -0.096754,
+        "median_r": 0.123652,
+        "total_r": -0.774032,
+        "total_usdt": -387.0158,
+        "pf": 0.75,
+        "hours_to_tp": {
+          "n": 2,
+          "min": 4.75,
+          "p25": 4.75,
+          "p50": 4.75,
+          "p75": 4.75,
+          "max": 11.5
+        },
+        "hours_to_stop": {
+          "n": 2,
+          "min": 4.25,
+          "p25": 4.25,
+          "p50": 4.25,
+          "p75": 4.25,
+          "max": 14.0
+        }
+      },
+      "gate": {
+        "variant": "V2_075",
+        "time_ok": false,
+        "expectancy_ok": false,
+        "no_conflict": true,
+        "loo_ok": true,
+        "pass": false
+      }
+    },
+    "V2_100": {
+      "tp_mult": 1.0,
+      "all": {
+        "n": 20,
+        "traded": 20,
+        "outcome": {
+          "TIME_EXIT": 12,
+          "LOSS": 4,
+          "WIN": 4
+        },
+        "win": 4,
+        "loss": 4,
+        "time_exit": 12,
+        "time_share": 0.6,
+        "target_hit": 0.2,
+        "stop_share": 0.2,
+        "win_rate_resolved": 0.5,
+        "avg_r": -0.029004,
+        "median_r": 0.123652,
+        "total_r": -0.580074,
+        "total_usdt": -290.038,
+        "pf": 1.0,
+        "hours_to_tp": {
+          "n": 4,
+          "min": 0.25,
+          "p25": 0.25,
+          "p50": 1.25,
+          "p75": 5.0,
+          "max": 11.5
+        },
+        "hours_to_stop": {
+          "n": 4,
+          "min": 1.0,
+          "p25": 1.0,
+          "p50": 4.25,
+          "p75": 4.25,
+          "max": 14.0
+        }
+      },
+      "B3": {
+        "n": 12,
+        "traded": 12,
+        "outcome": {
+          "TIME_EXIT": 8,
+          "WIN": 2,
+          "LOSS": 2
+        },
+        "win": 2,
+        "loss": 2,
+        "time_exit": 8,
+        "time_share": 0.666667,
+        "target_hit": 0.166667,
+        "stop_share": 0.166667,
+        "win_rate_resolved": 0.5,
+        "avg_r": -0.025504,
+        "median_r": 0.125387,
+        "total_r": -0.306042,
+        "total_usdt": -153.0222,
+        "pf": 1.0,
+        "hours_to_tp": {
+          "n": 2,
+          "min": 0.25,
+          "p25": 0.25,
+          "p50": 0.25,
+          "p75": 0.25,
+          "max": 1.25
+        },
+        "hours_to_stop": {
+          "n": 2,
+          "min": 1.0,
+          "p25": 1.0,
+          "p50": 1.0,
+          "p75": 1.0,
+          "max": 4.25
+        }
+      },
+      "S3": {
+        "n": 8,
+        "traded": 8,
+        "outcome": {
+          "LOSS": 2,
+          "WIN": 2,
+          "TIME_EXIT": 4
+        },
+        "win": 2,
+        "loss": 2,
+        "time_exit": 4,
+        "time_share": 0.5,
+        "target_hit": 0.25,
+        "stop_share": 0.25,
+        "win_rate_resolved": 0.5,
+        "avg_r": -0.034254,
+        "median_r": 0.123652,
+        "total_r": -0.274032,
+        "total_usdt": -137.0158,
+        "pf": 1.0,
+        "hours_to_tp": {
+          "n": 2,
+          "min": 5.0,
+          "p25": 5.0,
+          "p50": 5.0,
+          "p75": 5.0,
+          "max": 11.5
+        },
+        "hours_to_stop": {
+          "n": 2,
+          "min": 4.25,
+          "p25": 4.25,
+          "p50": 4.25,
+          "p75": 4.25,
+          "max": 14.0
+        }
+      },
+      "gate": {
+        "variant": "V2_100",
+        "time_ok": false,
+        "expectancy_ok": false,
+        "no_conflict": true,
+        "loo_ok": true,
+        "pass": false
+      }
+    }
+  },
+  "passed": [],
+  "blocked": "\u65e0 EMA/OF/ATR\u3002\u65e0\u624b\u7eed\u8d39\u3002B3/S3 \u5206\u8bb0\u3002\u4e0d\u6309 PF \u9009\u53c2\u3002PASS \u51bb\u7ed3\u6700\u5c0f\u901a\u8fc7 TP\u3002OOS \u53e6\u6388\u6743\u3002\u540c\u4e00 20 \u7b14 \u2260 OOS\u3002FAIL/NO_TP_EDGE \u2192 \u505c TP \u7ebf\uff0c\u624d\u770b Entry\u3002\u4e0d\u51c6\u52a0\u6307\u6807\u3002"
+}

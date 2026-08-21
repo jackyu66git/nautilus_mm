@@ -1,0 +1,80 @@
+{
+  "decision": "FAIL",
+  "kind": "NO_STATE_CONTRAST",
+  "summary": {
+    "n_bar": 8640,
+    "n_rev": 406,
+    "rev_share": 0.046991,
+    "process": [
+      {
+        "level": "EXPAND",
+        "n": 17,
+        "n_rev": 1,
+        "rev_share": 0.058824,
+        "label_b1": 0,
+        "thin": true
+      },
+      {
+        "level": "STABLE",
+        "n": 8270,
+        "n_rev": 391,
+        "rev_share": 0.047279,
+        "label_b1": 8,
+        "thin": false
+      },
+      {
+        "level": "NEW_BOX",
+        "n": 11,
+        "n_rev": 0,
+        "rev_share": 0.0,
+        "label_b1": 0,
+        "thin": true
+      },
+      {
+        "level": "NONE",
+        "n": 342,
+        "n_rev": 14,
+        "rev_share": 0.040936,
+        "label_b1": 0,
+        "thin": false
+      }
+    ],
+    "n_bis": [
+      {
+        "level": 3,
+        "n": 2568,
+        "n_rev": 131,
+        "rev_share": 0.051012,
+        "label_b1": 1,
+        "thin": false
+      },
+      {
+        "level": 5,
+        "n": 3606,
+        "n_rev": 172,
+        "rev_share": 0.047698,
+        "label_b1": 6,
+        "thin": false
+      },
+      {
+        "level": 7,
+        "n": 1488,
+        "n_rev": 64,
+        "rev_share": 0.043011,
+        "label_b1": 1,
+        "thin": false
+      },
+      {
+        "level": 9,
+        "n": 636,
+        "n_rev": 25,
+        "rev_share": 0.039308,
+        "label_b1": 0,
+        "thin": false
+      }
+    ],
+    "process_kind": "NO_STATE_CONTRAST",
+    "n_bis_kind": "NO_STATE_CONTRAST"
+  },
+  "blocked": "\u4f4d\u7f6e\u5207\u9762\u5df2\u5173\u3002\u672c\u5207\u9762\u5931\u8d25\u5219\u5173\u95ed\u6269\u5f20\u5047\u8bbe\u3002\u4e0d\u51c6\u63a5 OF/SMC/\u4ea4\u6613\u3002"
+}

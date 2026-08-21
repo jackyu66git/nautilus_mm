@@ -1,0 +1,19 @@
+CHAN_B3_V2  decision=HOLD  kind=FAMILY_SPLIT  freeze=None
+唯一变量 TP。Entry/Stop/24h 冻结。无费。
+
+  V2_050 tp=0.5 n=20 WIN=11 LOSS=3 TIME=6 time%=0.3 hit=0.55 stop%=0.15 avgR=0.090864 medR=0.5 sumR=1.817283 PF=1.833333
+       B3 n=12 WIN=8 LOSS=1 TIME=3 time%=0.25 hit=0.666667 stop%=0.083333 avgR=0.226247 medR=0.5 sumR=2.714967 PF=4.0
+       S3 n=8 WIN=3 LOSS=2 TIME=3 time%=0.375 hit=0.375 stop%=0.25 avgR=-0.11221 medR=0.134331 sumR=-0.897684 PF=0.75
+     gate time_ok=True exp_ok=True no_conflict=False loo_ok=True pass=False
+
+  V2_075 tp=0.75 n=20 WIN=6 LOSS=4 TIME=10 time%=0.5 hit=0.3 stop%=0.2 avgR=-0.004518 medR=0.125387 sumR=-0.090363 PF=1.125
+       B3 n=12 WIN=4 LOSS=2 TIME=6 time%=0.5 hit=0.333333 stop%=0.166667 avgR=0.056972 medR=0.150688 sumR=0.683669 PF=1.5
+       S3 n=8 WIN=2 LOSS=2 TIME=4 time%=0.5 hit=0.25 stop%=0.25 avgR=-0.096754 medR=0.123652 sumR=-0.774032 PF=0.75
+     gate time_ok=False exp_ok=False no_conflict=True loo_ok=True pass=False
+
+  V2_100 tp=1.0 n=20 WIN=4 LOSS=4 TIME=12 time%=0.6 hit=0.2 stop%=0.2 avgR=-0.029004 medR=0.123652 sumR=-0.580074 PF=1.0
+       B3 n=12 WIN=2 LOSS=2 TIME=8 time%=0.666667 hit=0.166667 stop%=0.166667 avgR=-0.025504 medR=0.125387 sumR=-0.306042 PF=1.0
+       S3 n=8 WIN=2 LOSS=2 TIME=4 time%=0.5 hit=0.25 stop%=0.25 avgR=-0.034254 medR=0.123652 sumR=-0.274032 PF=1.0
+     gate time_ok=False exp_ok=False no_conflict=True loo_ok=True pass=False
+
+无 EMA/OF/ATR。无手续费。B3/S3 分记。不按 PF 选参。PASS 冻结最小通过 TP。OOS 另授权。同一 20 笔 ≠ OOS。FAIL/NO_TP_EDGE → 停 TP 线，才看 Entry。不准加指标。

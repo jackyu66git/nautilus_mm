@@ -1,0 +1,19 @@
+CHAN_DESK_REPLAY_001  decision=PASS  kind=STATE_TAPE_OK
+可见状态记录器。不解释、不建议、不分类、不交易。
+
+C0   PASS             n_15m=8641 span_days=90.00 gaps_ne_15m=0
+C1   PASS             T_ZS_COMPLETE < t on all leftover
+C2   PASS             each row is a closed 15m bar prefix
+C3   PASS             OF of_window_end <= t and <= T_FX_VISIBLE when present
+C4   PASS             smc_state=UNDEFINED on all rows
+C5   PASS             no allow/entry/stop/MFE/of_support/B2
+C6   PASS             unique t=8641 probes replay-identical
+
+  n_15m=8641
+  n_b1_lock=8
+  n_of_trade_ok=8641
+  n_of_trade_not_loaded=0
+  first_t=2026-05-21 10:45:00+00:00
+  last_t=2026-08-19 10:45:00+00:00
+
+≠Edge 不准 allow Entry Stop MFE MAE of_support SMC-detector B2 换TF

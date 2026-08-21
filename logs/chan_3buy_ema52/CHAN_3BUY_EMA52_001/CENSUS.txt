@@ -1,0 +1,18 @@
+CHAN_3BUY_EMA52_001  decision=PASS  kind=SAMPLE_INSUFFICIENT
+15m 三买/三卖之后，回撤是否进入 EMA52 附近。命运不是涨跌。
+
+  n_mother=20 B3=12 S3=8 no_pb=0
+  usable=20 entered=9 not_entered=11
+  entered_resume=0.777778 missed_resume=1.0
+  entered_reentry=0.222222 missed_reentry=0.0
+  fate={'RESUME': 18, 'REENTRY': 2} clock_ok=True
+
+无 OF/MACD/EMA 搜索/30m/1H 等效尺度。不准改三买定义。
+
+VALID FOR LOCATION DIAGNOSTIC。NOT VALID FOR 15m SAMPLE-EXPANSION CLAIM。
+母集来自冻结 20 事件，不是本枪独立 15m 重识别。
+
+
+语义封存：ENTERED ≠ REENTRY。≠ EMA52 没用。本枪只问有没有摸到均线。
+2/9 ENTERED 最终 REENTRY = 均线没阻止结构失效，不是「回到均线」的定义。数字不可变。
+VALID FOR LOCATION DIAGNOSTIC。NOT VALID FOR 15m SAMPLE-EXPANSION CLAIM。

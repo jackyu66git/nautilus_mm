@@ -1,0 +1,52 @@
+{
+  "experiment": "CHAN_DESK_REPLAY_001",
+  "decision": "PASS",
+  "kind": "STATE_TAPE_OK",
+  "n_events": 8641,
+  "gates": [
+    {
+      "name": "C0",
+      "verdict": "PASS",
+      "detail": "n_15m=8641 span_days=90.00 gaps_ne_15m=0"
+    },
+    {
+      "name": "C1",
+      "verdict": "PASS",
+      "detail": "T_ZS_COMPLETE < t on all leftover"
+    },
+    {
+      "name": "C2",
+      "verdict": "PASS",
+      "detail": "each row is a closed 15m bar prefix"
+    },
+    {
+      "name": "C3",
+      "verdict": "PASS",
+      "detail": "OF of_window_end <= t and <= T_FX_VISIBLE when present"
+    },
+    {
+      "name": "C4",
+      "verdict": "PASS",
+      "detail": "smc_state=UNDEFINED on all rows"
+    },
+    {
+      "name": "C5",
+      "verdict": "PASS",
+      "detail": "no allow/entry/stop/MFE/of_support/B2"
+    },
+    {
+      "name": "C6",
+      "verdict": "PASS",
+      "detail": "unique t=8641 probes replay-identical"
+    }
+  ],
+  "summary": {
+    "n_15m": 8641,
+    "n_b1_lock": 8,
+    "n_of_trade_ok": 8641,
+    "n_of_trade_not_loaded": 0,
+    "first_t": "2026-05-21 10:45:00+00:00",
+    "last_t": "2026-08-19 10:45:00+00:00"
+  },
+  "blocked": "\u2260Edge \u4e0d\u51c6 allow Entry Stop MFE MAE of_support SMC-detector B2 \u6362TF"
+}

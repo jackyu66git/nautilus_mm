@@ -1,0 +1,48 @@
+CHAN_SETUP_STRATA_001 Replay  decision=PASS  kind=STRATA_OK
+出生时刻客观状态 × 已冻 Outcome。四张单维表。不收紧 Setup。
+
+C0   PASS             n_tape=8641
+C1   PASS             mother=2342 outcome=2341 rows=2341 clock_drop=1
+C2   PASS             clock_drop excluded ids=['2026-08-19 09:45:00']
+C3   PASS             Y = frozen outcome_class, not recomputed
+C4   PASS             tables=['bi_state', 'fractal_direction', 'htf_leftover_count', 'space_relation']
+C5   PASS             table_n={'htf_leftover_count': 2341, 'space_relation': 2341, 'bi_state': 2341, 'fractal_direction': 2341}
+C6   PASS             anchor_levels=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+C7   PASS             no hit_rate/p_value/NEW_SETUP/4-way dirty=[]
+
+  n_clock_drop=1 ids=['2026-08-19 09:45:00']
+
+  htf_leftover_count
+    level n CONTINUES REVERSES DISSOLVES NEXT_EVENT CENSOR dissolves_share
+    1 374 0 46 328 0 0 0.8770
+    2 175 0 22 153 0 0 0.8743
+    3 150 0 22 128 0 0 0.8533
+    4 208 0 29 179 0 0 0.8606
+    5 241 0 39 202 0 0 0.8382
+    6 389 0 53 336 0 0 0.8638
+    7 247 0 33 214 0 0 0.8664
+    8 237 0 29 208 0 0 0.8776
+    9 119 0 17 102 0 0 0.8571
+    10 201 0 31 170 0 0 0.8458
+
+  space_relation
+    level n CONTINUES REVERSES DISSOLVES NEXT_EVENT CENSOR dissolves_share
+    CONTACT_BOX 61 0 4 57 0 0 0.9344
+    ABOVE_BOX 1005 0 142 863 0 0 0.8587
+    BELOW_BOX 1064 0 148 916 0 0 0.8609
+    STRADDLE_BOX 211 0 27 184 0 0 0.8720
+
+  bi_state
+    level n CONTINUES REVERSES DISSOLVES NEXT_EVENT CENSOR dissolves_share
+    UP_SURE 0 0 0 0 0 0 
+    UP_UNSURE 1120 0 160 960 0 0 0.8571
+    DOWN_SURE 0 0 0 0 0 0 
+    DOWN_UNSURE 1221 0 161 1060 0 0 0.8681
+    BI_DIR_NONE 0 0 0 0 0 0 
+
+  fractal_direction
+    level n CONTINUES REVERSES DISSOLVES NEXT_EVENT CENSOR dissolves_share
+    TOP 1170 0 160 1010 0 0 0.8632
+    BOTTOM 1171 0 161 1010 0 0 0.8625
+
+不准收紧 Setup。不准研究 B1。不准 OF/SMC/MFE。下一枪未授权。

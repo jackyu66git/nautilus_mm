@@ -1,0 +1,17 @@
+{
+  "decision": "PASS",
+  "kind": "FATE_CENSUS_OK",
+  "clock_ok": true,
+  "n_leave": 57,
+  "n_pullback_in": 37,
+  "n_3": 20,
+  "n_b3": 12,
+  "n_s3": 8,
+  "n_resume": 18,
+  "n_reentry": 2,
+  "n_reverse": 0,
+  "n_censor": 0,
+  "resume_rate": 0.9,
+  "hours_to_fate_p50": 0.5,
+  "blocked": "\u65e0 EMA/OF\u3002\u4e0d\u51c6\u653e\u5bbd\u4e09\u4e70\u30029 vs 11 \u4e0d\u662f\u672c\u67aa\u5bf9\u7167\u3002PULLBACK_IN \u4e0d\u662f\u547d\u8fd0\u5bf9\u7167\u81c2\u3002"
+}

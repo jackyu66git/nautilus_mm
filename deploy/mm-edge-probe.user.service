@@ -1,0 +1,21 @@
+# 用户级 systemd（无需 sudo）— 安装到 ~/.config/systemd/user/
+[Unit]
+Description=Maker Edge Probe MM_EDGE_EXP_001
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/www/Project/nautilus_mm
+Environment=PYTHONPATH=/www/Project/nautilus_mm/src
+EnvironmentFile=-/www/Project/nautilus_mm/.env
+Environment=HTTP_PROXY=
+Environment=HTTPS_PROXY=
+ExecStart=/www/Project/nautilus_mm/.venv/bin/python -m nautilus_mm.run_live
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=mm-edge-probe
+
+[Install]
+WantedBy=default.target

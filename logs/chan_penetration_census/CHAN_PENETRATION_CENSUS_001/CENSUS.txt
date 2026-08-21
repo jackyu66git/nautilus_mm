@@ -1,0 +1,19 @@
+CHAN_PENETRATION_CENSUS_001  decision=PASS  kind=HIERARCHY_CANDIDATE
+确认后反向 excursion / 冻结结构锚。无 ATR。无止损。无 PnL。
+
+  n=47 missing=0 row_mismatch=0
+  mae_close={'n': 47, 'min': 175.3, 'p25': 1029.4, 'p50': 2518.3, 'p75': 4173.4, 'max': 19129.3}
+  hours_to_mae={'n': 47, 'min': 0.75, 'p25': 46.0, 'p50': 175.5, 'p75': 417.0, 'max': 911.0}  (扫到样本末，不是局部失效深度)
+  hours_to_pierce_leave={'n': 31, 'min': 0.25, 'p25': 4.5, 'p50': 19.0, 'p75': 95.25, 'max': 449.75}
+
+  B1 n=18 layers={'NONE': 0, 'SHALLOW': 4, 'PRIMARY': 14} visible=['SHALLOW', 'PRIMARY'] top=0.7778 has_layers=True
+      leave_ext={'n': 18, 'k': 14, 'rate': 0.777778} box_ext={'n': 18, 'k': 16, 'rate': 0.888889} far={'n': 18, 'k': 18, 'rate': 1.0}
+      h_leave={'n': 14, 'min': 0.25, 'p25': 1.25, 'p50': 10.0, 'p75': 19.0, 'max': 449.75} h_box={'n': 16, 'min': 0.25, 'p25': 2.5, 'p50': 8.75, 'p75': 30.5, 'max': 132.75} h_far={'n': 18, 'min': 0.25, 'p25': 0.25, 'p50': 0.25, 'p75': 0.25, 'max': 0.25}
+  B2 n=9 layers={'NONE': 0, 'SHALLOW': 7, 'PRIMARY': 2} visible=['SHALLOW'] top=0.7778 has_layers=False
+      leave_ext={'n': 9, 'k': 2, 'rate': 0.222222} box_ext={'n': 9, 'k': 9, 'rate': 1.0} far={'n': 9, 'k': 7, 'rate': 0.777778}
+      h_leave={'n': 2, 'min': 8.0, 'p25': 8.0, 'p50': 8.0, 'p75': 8.0, 'max': 325.0} h_box={'n': 9, 'min': 0.25, 'p25': 0.25, 'p50': 6.5, 'p75': 53.0, 'max': 322.75} h_far={'n': 7, 'min': 0.25, 'p25': 0.25, 'p50': 0.25, 'p75': 7.0, 'max': 323.75}
+  B3 n=20 layers={'NONE': 1, 'SHALLOW': 0, 'BOX': 3, 'THROUGH': 16} visible=['BOX', 'THROUGH'] top=0.8 has_layers=True
+      leave_ext={'n': 20, 'k': 15, 'rate': 0.75} box_ext={'n': 20, 'k': 19, 'rate': 0.95} far={'n': 20, 'k': 16, 'rate': 0.8}
+      h_leave={'n': 15, 'min': 1.25, 'p25': 9.0, 'p50': 64.75, 'p75': 95.25, 'max': 405.25} h_box={'n': 19, 'min': 0.75, 'p25': 2.0, 'p50': 20.75, 'p75': 63.75, 'max': 439.25} h_far={'n': 16, 'min': 1.25, 'p25': 9.0, 'p50': 64.25, 'p75': 83.25, 'max': 406.25}
+
+无 ATR 阈值。无止损优化。无收益率。无 EMA/OF。无 Fate/Continuation 回调。MAE 扫到样本末，不是局部失效深度。只读首次穿锚时间。B1/B2 的 enter_box/through_far 不是反向失效（T0 多已在盒外）。合样本 pierce/box/far 不准当层级。HIERARCHY_CANDIDATE ≠ 失效边界。第二闸另授权。HOLD_NO_HIERARCHY → 本线关闭，不准补 ATR。

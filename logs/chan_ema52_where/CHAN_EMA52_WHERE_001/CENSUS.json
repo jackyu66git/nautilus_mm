@@ -1,0 +1,22 @@
+{
+  "decision": "FAIL",
+  "kind": "NO_STATE_CONTRAST",
+  "clock_ok": true,
+  "n_1h": 2161,
+  "n_episode": 148,
+  "n_up": 77,
+  "n_down": 71,
+  "n_near": 50,
+  "n_never_near": 98,
+  "n_resume": 104,
+  "n_break": 43,
+  "n_censor": 1,
+  "near_resume_rate": 0.38,
+  "near_break_rate": 0.6,
+  "n_checkpoint_near": 10,
+  "n_checkpoint_far": 51,
+  "checkpoint_near_resume_rate": 0.4,
+  "checkpoint_far_resume_rate": 0.54902,
+  "contrast": "NO_STATE_CONTRAST",
+  "blocked": "\u65e0 MACD / \u4e09\u4e70 / OF / SMC / \u6536\u76ca\u3002\u4e0d\u51c6\u7528\u5747\u7ebf\u5b9a\u4e49\u4e09\u4e70\u3002"
+}

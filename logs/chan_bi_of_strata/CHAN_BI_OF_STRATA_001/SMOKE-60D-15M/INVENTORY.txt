@@ -1,0 +1,20 @@
+CHAN_BI_OF_STRATA_001  decision=FAIL  kind=NO_GRADIENT
+scale=15m bi-endpoint + 1m OF  n_15m=5761 n_ep=270
+
+S0   PASS             leak=0 T_BI_SURE>T_FX_VISIBLE unmatched_fx=0 truncated=1 n=270
+S1   PASS             n_bottom_ep=135 per_q=[27, 27, 27, 27, 27]
+S2   FAIL             NO_GRADIENT no Q1→Q5 gradient rho[mae_16=0.100 mfe_16=-0.500 ret_4=0.500 ret_8=-0.900 ret_16=-0.200 ret_4_net=0.500 ret_8_net=-0.900 ret_16_net=-0.200] mae_steps=2/4
+S3   NOT_RUN          S2 FAIL
+
+medians Q1→Q5
+  mae_16 0.0047839 0.0037063 0.003961 0.0036629 0.0048156
+  mfe_16 0.0046734 0.0027292 0.0052559 0.0041788 0.0024662
+  ret_4 -0.00049058 -0.0004963 -0.00055379 -4.6996e-06 -0.00026887
+  ret_8 0.00020977 8.0019e-05 -0.00057485 7.2582e-05 -0.0011831
+  ret_16 -0.00027859 -0.00041589 0.0003566 5.5338e-05 -0.0022926
+  ret_4_net -0.0012906 -0.0012963 -0.0013538 -0.0008047 -0.0010689
+  ret_8_net -0.00059023 -0.00071998 -0.0013749 -0.00072742 -0.0019831
+  ret_16_net -0.0010786 -0.0012159 -0.0004434 -0.00074466 -0.0030926
+rho_median mae_16=0.100 mfe_16=-0.500 ret_4=0.500 ret_8=-0.900 ret_16=-0.200 ret_4_net=0.500 ret_8_net=-0.900 ret_16_net=-0.200
+
+B1/B2=FORBIDDEN HTF=BLOCKED SMC=BLOCKED TF=BLOCKED classifier=FORBIDDEN not_edge

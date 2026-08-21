@@ -1,0 +1,31 @@
+# MM_EDGE_EXP_002 — Event-State Observability Probe
+# Data collection only. NO trading.
+
+experiment_id: MM_EDGE_EXP_002
+probe_version: event_state_v0.1
+experiment_type: Event-State Observability Probe
+strategy: NONE
+execution_trading: false
+depends_on: MM_EDGE_EXP_001
+
+quote: frozen
+fee: frozen
+exchange: frozen
+
+trader_id: EVENT-STATE-002
+symbol: BTCUSDT-PERP
+account_type: USDT_FUTURES
+environment: TESTNET
+
+book_depth: 10
+prefill_window_sec: 5.0
+prefill_margin_sec: 0.25
+large_trade_qty: 0.1
+log_every_book_delta: true
+
+log_dir: logs/event_state
+
+# Gate 3 thresholds (frozen)
+gate3_trade_coverage_min: 0.99
+gate3_book_coverage_min: 0.99
+gate3_timestamp_valid_min: 0.99

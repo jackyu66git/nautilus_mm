@@ -1,0 +1,12 @@
+CHAN_HTF_ZS_LTF_REV_001  decision=PASS  kind=REV_TABLE_OK
+living 1H 中枢位置 → 下一根 15m 笔方向是否反转。
+
+  n_tape=8641 n_bar=8640 n_rev=406 rev_share=0.046991
+
+  state n n_rev rev_share label_b1
+  A_INSIDE 1560 71 0.045513 0
+  B_BOUNDARY 417 21 0.05036 0
+  C_AWAY 6321 300 0.047461 8
+  NONE 342 14 0.040936 0
+
+不是 Setup。不是交易。B1 不是 y。不准接 OF/SMC。

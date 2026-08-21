@@ -1,0 +1,14 @@
+CHAN_3RD_POINT_001 Census  decision=PASS  kind=CENSUS_OK
+15m 同级别第三类买卖点。T_ZS < T_LEAVE < T_3。回抽后是否再进中枢不用于定义。
+
+  n_15m=8641 n_zs=57 n_zs_complete=56 n_leave=57
+  n_b3=12 n_s3=8 n_3=20
+  n_pullback_in=37 n_wrong_dir=0 n_drop=0 n_waiting_pb=0
+  clock_ok=True
+  leave_to_3_hours_p50=3.0
+
+离开=成员后第一笔确认的方向突破（可重叠中枢）。回抽未进才是 T_3。
+无 MFE/OF/SMC/交易。离开时冻结 zg/zd。回抽后再进中枢不用于定义。
+
+  n_same_bar_zs_leave=7  n_complete_visible_at_T3=0
+  leftover(has_next) 不是 T_3 的前钟。T_ZS_VISIBLE 才是。

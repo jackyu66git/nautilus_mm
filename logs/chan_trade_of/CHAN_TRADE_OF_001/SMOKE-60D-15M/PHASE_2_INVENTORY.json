@@ -1,0 +1,72 @@
+{
+  "experiment": "CHAN_TRADE_OF_001",
+  "phase": "2",
+  "decision": "FAIL",
+  "kind": "CONDITIONAL_MECHANISM",
+  "n_events": 1957,
+  "gates": [
+    {
+      "name": "M0",
+      "verdict": "PASS",
+      "detail": "n=1957 leak=0 rho_resid=-0.323 (Phase 1 control)"
+    },
+    {
+      "name": "M1",
+      "verdict": "PASS",
+      "detail": "time terciles \u03c1=-0.281 n=653 \u03c1=-0.274 n=652 \u03c1=-0.344 n=652"
+    },
+    {
+      "name": "M2",
+      "verdict": "PASS",
+      "detail": "bottom \u03c1=-0.318 n=978  top \u03c1=-0.327 n=979"
+    },
+    {
+      "name": "M3",
+      "verdict": "FAIL",
+      "detail": "effort terciles |delta|/vol \u03c1=-0.023 n=652 \u03c1=-0.387 n=652 \u03c1=-0.630 n=653"
+    },
+    {
+      "name": "M4",
+      "verdict": "PASS",
+      "detail": "resid+|range+1/n_levels \u03c1=-0.322  drop_p95 \u03c1=-0.256 n=1789  Spearman(HHI,1/n_levels)=0.767"
+    }
+  ],
+  "summary": {
+    "rho_resid": -0.3227143026622417,
+    "time": [
+      {
+        "rho": -0.28115612758688246,
+        "n": 653
+      },
+      {
+        "rho": -0.2744135961044389,
+        "n": 652
+      },
+      {
+        "rho": -0.34402193021744604,
+        "n": 652
+      }
+    ],
+    "bottom": -0.3177579012641591,
+    "top": -0.3268372008497465,
+    "effort": [
+      {
+        "rho": -0.022724857053409316,
+        "n": 652
+      },
+      {
+        "rho": -0.38747586672931766,
+        "n": 652
+      },
+      {
+        "rho": -0.6300469209611467,
+        "n": 653
+      }
+    ],
+    "rho_after_range_nlevels": -0.3222020324049796,
+    "rho_drop_extremes": -0.2561579069002181,
+    "spearman_hhi_inv_nlevels": 0.766535103986931,
+    "n_drop_keep": 1789
+  },
+  "blocked": "\u2260NEW_EDGE \u4e0d\u51c6 B1/B2 HTF SMC 5m absorption \u4ea4\u6613\u5c42"
+}

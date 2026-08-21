@@ -1,0 +1,33 @@
+CHAN_B3_EXIT_CENSUS_001  decision=PASS  kind=A_SMALLER_TARGET
+Entry/Stop 冻结。R 网格 × 24/48/72h + 至 Stop/样本末。无 PnL。
+
+  mfe_r={'n': 20, 'min': 0.0918, 'p25': 0.2212, 'p50': 0.6982, 'p75': 1.8673, 'max': 10.0912}
+  mfe_24/48/72=0.5165/0.6046/0.6982
+  hours_to_stop={'n': 16, 'min': 1.0, 'p25': 8.75, 'p50': 64.0, 'p75': 83.0, 'max': 406.0}
+
+  R=0.5
+     24  hit=11/20=0.55 stop=3 none=6 h_p50=4.25
+     48  hit=12/20=0.6 stop=5 none=3 h_p50=4.25
+     72  hit=12/20=0.6 stop=7 none=1 h_p50=4.25
+    any  hit=12/20=0.6 stop=8 none=0 h_p50=4.25
+  R=0.75
+     24  hit=6/20=0.3 stop=4 none=10 h_p50=3.5
+     48  hit=9/20=0.45 stop=6 none=5 h_p50=10.75
+     72  hit=10/20=0.5 stop=8 none=2 h_p50=10.75
+    any  hit=10/20=0.5 stop=10 none=0 h_p50=10.75
+  R=1.0
+     24  hit=4/20=0.2 stop=4 none=12 h_p50=1.25
+     48  hit=8/20=0.4 stop=6 none=6 h_p50=11.5
+     72  hit=9/20=0.45 stop=8 none=3 h_p50=24.5
+    any  hit=10/20=0.5 stop=10 none=0 h_p50=24.5
+  R=2.0
+     24  hit=2/20=0.1 stop=4 none=14 h_p50=2.25
+     48  hit=3/20=0.15 stop=6 none=11 h_p50=4.0
+     72  hit=3/20=0.15 stop=9 none=8 h_p50=4.0
+    any  hit=5/20=0.25 stop=14 none=0 h_p50=38.25
+
+  B3/S3 0.5R@24 与 1R@any：
+    B3 0.5@24 hit=8/12=0.666667 stop=1 none=3 h_p50=1.0  1@any hit=7/12=0.583333 stop=5 none=0 h_p50=38.75
+    S3 0.5@24 hit=3/8=0.375 stop=2 none=3 h_p50=11.5  1@any hit=3/8=0.375 stop=5 none=0 h_p50=11.5
+
+无 EMA/OF/ATR。无 PnL。不改 Entry/Stop。A → V2 0.5/0.75/1R 另授权。B → 24/48/72h 另授权。C → 停三买交易线。不准加指标救。V1 −0.58R 不是 Economic FAIL。

@@ -1,0 +1,36 @@
+CHAN_SETUP_OUTCOME_001 Replay  decision=PASS  kind=OUTCOME_OK
+Setup_CANDIDATE 自然结构结局。不交易、不算命中率、不改分类。
+T_OUTCOME_VISIBLE = 出生后第一次结构事件的 Tape.t。
+
+C0   PASS             n_tape=8641
+C1   PASS             n_setup=2341 n_clock_drop=1 unique=2341
+C2   PASS             T_SETUP_VISIBLE < T_OUTCOME_VISIBLE and outcome_row > tape_row
+C3   PASS             class mapping frozen b1_as_event=0
+C4   PASS             no WR/MFE/OF/SMC/success dirty=0
+C5   PASS             b1_lock rows with >1 setup n=0
+C6   PASS             summary n=2341 clock_drop=1
+C7   PASS             no hit_rate/success in summary
+
+  n_mother=2342
+  n_setup=2341
+  n_clock_drop=1 ids=['2026-08-19 09:45:00']
+  outcome_class
+    CONTINUES=0
+    REVERSES=321
+    DISSOLVES=2020
+    NEXT_EVENT=0
+    CENSOR=0
+  outcome_event
+    BI_SURE_ON=0
+    BI_DIR_CHANGE=321
+    BI_SURE_OFF=0
+    FX_IDENTITY_CHANGE=2020
+    CENSOR=0
+  n_censor=0
+  label_b1_true=5 label_b1_false=2336
+  label_b1_by_outcome_class={'REVERSES': 5}
+  label_b1_by_outcome_event={'BI_DIR_CHANGE': 5}
+  label_b2=UNAVAILABLE
+  duration_hours min=0.25 p50=0.5 max=4.25
+
+MFE MAE WR PF Entry OF SMC leftover分层 未跑。下一枪未授权。

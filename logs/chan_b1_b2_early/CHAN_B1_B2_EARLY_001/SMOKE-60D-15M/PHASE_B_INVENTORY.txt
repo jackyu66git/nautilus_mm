@@ -1,0 +1,29 @@
+online_source: PASS
+1m gaps=0  15m gaps=0  of_15m=5759
+log=/Users/jack/Project/freqtrade/nautilus_mm/logs/chan_b1_b2_early/CHAN_B1_B2_EARLY_001/SMOKE-60D-15M
+CHAN_B1_B2_EARLY_001
+Phase B OF lead audit
+of_source: binanceusdm 1m kline taker_buy_base (field 9) → 15m sum
+of_event: DELTA_SIGN_FLIP
+decision: PASS
+failed_at: None
+
+Q1 stable causal OF change in (T0, T_B2)
+  n_cases=5  causal=5  with_flip=5
+  n_flips_p50=6  window_p50=13  every_bar_flip=0
+
+Q2 first OF change vs T_B2_truth (15m bars)
+  lead p0/p50/p100=10/13/17
+  leads=[11, 10, 13, 13, 17]  first_flips=[544, 2254, 3226, 5045, 5317]
+
+Q3 consistent timing across episodes
+  with_flip=5/5
+
+Q4 same-root with test-bar price
+  same_root=4/5  eq_first_price_flip=4/5
+
+Q5 early lead, not label leakage
+  window exclusive of T_B2  lead_p50=13
+
+Q6
+  PASS  (PASS ≠ Entry. NEGATIVE stays closed. Do not retune.)

@@ -1,0 +1,15 @@
+CHAN_EMA52_WHERE_001  decision=FAIL  kind=NO_STATE_CONTRAST
+1H EMA52 = WHERE。回撤到均线附近 vs 仍远离。无 MACD / 三买 / 收益。
+
+  n_1h=2161 n_episode=148 up=77 down=71
+  n_near=50 n_never_near=98
+  fate resume=104 break=43 censor=1
+  near_resume=0.38 near_break=0.6
+  checkpoint NEAR n=10 resume=0.4
+  checkpoint FAR  n=51 resume=0.54902
+  clock_ok=True
+
+无 MACD / 三买 / OF / SMC / 收益。不准用均线定义三买。
+
+语义封存：≠ EMA52 没用。本枪只排除无状态的「近 vs 远」和普适支撑/压力。
+中枢震荡穿越均线不是失败样本。数字不可变。
