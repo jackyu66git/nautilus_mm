@@ -10,9 +10,11 @@
 仅跨轨时询问
 ```
 
-当前状态：**WAITING。CHAN_B3_V2 = HOLD / FAMILY_SPLIT。0.5R = Candidate。**
+当前状态：**沿 `CHAN_TO_LIVE.md` 走。Active = G0 WAIT。**
+`CHAN_B3_R_CENSUS_001` = NO_TAIL / SHAPE_OK。G0b = N/A。
 等自然 S3 至 n_S3≥16 才允许一次 `CHAN_B3_V2_RECHECK`。等是合同，不是停工。
-不准新开结构研究。不准只做 B3。不准加 EMA/OF。不准偷看。
+不准一枪完再规划。不准 Cap Stop。不准另定 5%/10%/15%。
+不准新开结构研究。不准只做 B3。不准加 EMA/OF。不准偷看 n_S3<16。
 
 本树已停。连续排除的是伪 Alpha 路径，不是「没东西可做」：
 
@@ -50,9 +52,9 @@ MAE 扫到样本末（p50=175.5h）不是局部失效深度。B1/B2 盒沿不是
 
 ## 自动推进
 
-主线挂起：0.5R Candidate。下一动作只有 `CHAN_B3_V2_RECHECK`，且仅当 n_S3≥16。
-不准为「有事情做」立项。不准新开结构研究、Penetration 第二闸、B1/B2 交易线。
-不准问「什么条件让三买更好」。不准用 EMA/OF 救 S3。
+主线：`CHAN_TO_LIVE.md`。G-R 已结束 = NO_TAIL。下一动作只有等 n_S3≥16 后的 `CHAN_B3_V2_RECHECK`。
+不准再开会规划。不准为「有事情做」立项。不准新开结构研究、Penetration 第二闸、B1/B2 交易线。
+不准问「什么条件让三买更好」。不准用 EMA/OF 救 S3。不准把结构 Stop 改近。
 
 另开实验仅当：全新机制假设、另立研究线（不改本树），已跨轨询问，且同时满足：
 
@@ -94,6 +96,9 @@ MAE 扫到样本末（p50=175.5h）不是局部失效深度。B1/B2 盒沿不是
 - 把 V2 收成只做 B3 以绕开 FAMILY_SPLIT
 - n_S3<16 时偷看复检或加指标救 S3
 - 在 HOLD 期间新开结构研究 / B1/B2 交易线 / Penetration 第二闸
+- 把结构 Stop Cap 近，或用 5%/10%/15% 当未普查的交易阈值
+- Gate 未给出判定时重新规划或临时加实验
+- 在官方 NautilusTrader / freqtrade 上游仓库改本研究合同
 
 ## 自动失败关闭
 

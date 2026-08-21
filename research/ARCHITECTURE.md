@@ -5,13 +5,16 @@ Status:     FROZEN MAP
 Fact Layer: FROZEN FACT BASELINE
             CHAN_DESK_REPLAY_001 = PASS / STATE_TAPE_OK
             基准事实层，不是实验结果。Tape / 钟 / 窗口 不准再改
-Active:     WAITING。CHAN_B3_V2 = HOLD / FAMILY_SPLIT
-            0.5R = Candidate。n_S3≥16 才复检。不准新开结构研究
+Active:     G0 WAIT。CHAN_TO_LIVE.md
+            CHAN_B3_R_CENSUS_001 = NO_TAIL / SHAPE_OK
+            CHAN_B3_V2 = HOLD / FAMILY_SPLIT。0.5R = Candidate
+            n_S3≥16 才复检。不准新开结构研究
 Track:      旧树停机。伪 Alpha 路径已拆
             Fate PASS · Continuation STOP · Location HOLD_NO_SPLIT
-            新线：0.5R Candidate 挂起。等自然 S3。Penetration 已停
-Governance: RESEARCH_MANDATE.md（研究委托制）
+            交易线：Raw R 无预注册长尾。恢复等自然 S3
+Governance: RESEARCH_MANDATE.md → CHAN_TO_LIVE.md
 Paused:     WAITING 是合同。n_S3≥16 之前不复检、不调参、不新开研究
+            不准 Cap Stop。G0b = N/A
             旧树 IDLE。EMA52 Frozen · OF Locked Out · Trend Age Attribution only
 Frozen:
             命题             弱 continuation = T+1 瞬时扩展。无后续连续扩展证据
@@ -32,7 +35,7 @@ Closed:     CHAN_EMA52_WHERE_001 = NO_STATE_CONTRAST
             CHAN_HTF_ZS_LTF_REV_001 = NO_STATE_CONTRAST（位置）
             CHAN_HTF_ZS_EXPAND_LTF_REV_001 = NO_STATE_CONTRAST（扩张）
             EXPAND 事件 n=17 过薄。n_bis=3/5/7/9 无分化
-Trading:        NOT STARTED
+Trading:        LOCKED 到 CHAN_TO_LIVE 状态机。G0 WAIT。G-R = NO_TAIL
 Closed:     CHAN_HTF_HIST_ANCHOR_LTF_B1_001
             Phase 0 PASS / HIST_ANCHOR_EXISTS。Q4 FAIL / NO_FATE_CONTRAST
             数字不可变。问法进 Research BACKLOG
@@ -220,7 +223,8 @@ Trading Layer:         CHAN_B3_BASELINE_V1 已跑。BASELINE_OK ≠ Edge
 | CHAN_PENETRATION_CENSUS_001 | 确认后反向 excursion / 冻结锚穿透（无 ATR） | PASS / HIERARCHY_CANDIDATE。不是止损。假设「多数很浅」不成立。MAE-to-end ≠ 失效深度。B1/B2 盒沿不是反向锚。第二闸另授权 |
 | CHAN_B3_BASELINE_V1 | 冻结 B3/S3 · T1 open · 盒沿 Stop · 1R TP · 24h TIME | PASS / BASELINE_OK。WIN=4 LOSS=4 TIME=12。mfe24 p50=0.54R。不是 TP 太近也不是 Stop 太紧。TIME_DOMINATED。≠ Edge。不准改 Time/TP/Stop |
 | CHAN_B3_EXIT_CENSUS_001 | Exit 几何：R 网格 × 24/48/72h / 至 Stop | PASS / A_SMALLER_TARGET。0.5R@24=11/20，1R@24=4/20。1R any=10/20 p50=24.5h。V2 另授权。−0.58R ≠ Economic FAIL |
-| CHAN_B3_V2 | 唯一变量 TP：0.5 / 0.75 / 1.0R | HOLD / FAMILY_SPLIT。0.5R=Candidate 未冻结。B3 支持 S3 不支持。n_S3≥16 才 RECHECK。不准只做 B3 |
+| CHAN_B3_V2 | 唯一变量 TP：0.5 / 0.75 / 1.0R | HOLD / FAMILY_SPLIT。0.5R=Candidate 未冻结。B3 支持 S3 不支持。下一格见 CHAN_TO_LIVE G1。不准只做 B3 |
+| CHAN_B3_R_CENSUS_001 | Raw R 分布。R_pct=|Entry−Stop|/Entry。不改 Stop | DONE / NO_TAIL。p50=2.12% p90=4.04% max=6.19%。p90/p50=1.91。G0b=N/A。不定 5/10/15% |
 | CHAN_3RD_POINT_END_001 | 2 个 REENTRY 在 T_3 前是否已处于不同大级别趋势状态 | PASS / ATTRIBUTION_OK。SHIFT 7/7 RESUME。LATE 3 里 2 REENTRY。两种 LATE 不同。not_proof。不准改三买 |
 | CHAN_2ND_POINT_FATE_001 | 15m 二买/二卖确认后的结构 Fate | PASS / FATE_CENSUS_OK。n_2=9（B2=4,S2=5）。9/9 RESUME。5/9 下一根即 Fate。p50=0.25h=判定延迟，≠比三买快一倍。漏斗 57→34→14→9。BROKE_FIRST≠失败。n=9 不准开生命周期 |
 | CHAN_EMA52_WHERE_001 | 无状态的「回撤到 EMA52 附近 vs 仍远离」是否改变后续结构命运 | FAIL / NO_STATE_CONTRAST。≠ EMA52 没用。排除普适支撑/压力。震荡穿越不是失败样本。不准改本 ID 翻盘。数字不可变 |

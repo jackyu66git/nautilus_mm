@@ -64,7 +64,7 @@ Exit Geometry → 0.5R Candidate
 
 ## 等待期锁定合同
 
-等不是停工，是合同：让市场自然再产生至少 8 个 S3，避免挑选观察窗。
+等不是停工，是合同：让市场自然再产生至少 8 个 S3，避免挑选观察窗。G-R 已结束（NO_TAIL），不另开 Risk Distance Gate。
 
 | 槽 | 锁定 |
 |----|------|
@@ -78,7 +78,8 @@ Exit Geometry → 0.5R Candidate
 | 其他 TP | 不扫 |
 | n_S3 < 16 | 不偷看、不复检 |
 
-到 n_S3 = 16 只跑一次 `CHAN_B3_V2_RECHECK`。过闸 → TP_CANDIDATE → OOS 另授权。不过闸 → 按预注册停，不为过闸调参。
+下一格见 [`CHAN_TO_LIVE.md`](../CHAN_TO_LIVE.md)。G-R = NO_TAIL。G0b = N/A。
+到 n_S3 = 16 只跑一次 `CHAN_B3_V2_RECHECK`。过闸 → TP_CANDIDATE → OOS 另授权。不过闸 → 按预注册停，不为过闸调参。不准 Cap Stop。
 
 
 ## 复检时钟（预注册，未到不准跑）
